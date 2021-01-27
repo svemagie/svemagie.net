@@ -1,0 +1,2 @@
+# svemagie.net
+svemagie web
