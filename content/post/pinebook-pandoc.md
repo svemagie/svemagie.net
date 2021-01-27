@@ -1,8 +1,9 @@
-+++
-title = "PinebookDiaries: glueing Pandoc"
-date = 2021-01-13T16:34:43+01:00
-author = "svemagie"
-+++
+---
+title: "PinebookDiaries: glueing Pandoc"
+date: 2021-01-13T16:34:43+01:00
+author: "svemagie"
+tags: [sysadmin, pinebook, markdown]
+---
 
 My trusted [PinebookPro](https://www.pine64.org/pinebook-pro/) won't install [pandoc](https://pandoc.org/) per default. 
 

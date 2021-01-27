@@ -1,6 +1,7 @@
 ---
 title: "Connection test & get all mail"
 date: 2021-01-17
+tags: [sysadmin, mail, snippets]
 ---
 
 This is the script I call from crontab entry  `*/10 * * * * $HOME/bin/fetchmail.sh`.
