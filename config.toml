@@ -137,41 +137,41 @@ pygmentsCodeFencesGuessSyntax = true
             weight = 5
             url = "contact/"
 
-    [languages.de]
-        languageName = "Deutsch"
-	title = "svemagie"
-
-       [languages.de.params]
-            author = "Sven Giersig"
-            info = "Sozialwissenschaftler und Unixliebhaber"
-            keywords = "blog,persönlich,soziologie,unix"
-    	    description = "svemagie's persönliche webseite"
-    	   #footerContent = "Enter a text here."
-
-        [languages.de.menu]
-
-            [[languages.de.menu.main]]
-            name = "Über"
-            weight = 1
-            url = "ueber/"
-
-            [[languages.de.menu.main]]
-            name = "Blog"
-            weight = 2
-            url = "posts/"
-
-            [[languages.de.menu.main]]
-            name = "Projekte"
-            weight = 3
-            url = "projekte/"
-
-           [[languages.de.menu.main]]
-            name = "Schnipsel"
-            weight = 4
-            url = "snippets/"
-
-            [[languages.de.menu.main]]
-            name = "Kontakt"
-            weight = 5
-            url = "kontakt/"
-
+#    [languages.de]
+#        languageName = "Deutsch"
+#	title = "svemagie"
+#
+#       [languages.de.params]
+#            author = "Sven Giersig"
+#            info = "Sozialwissenschaftler und Unixliebhaber"
+#            keywords = "blog,persönlich,soziologie,unix"
+#    	    description = "svemagie's persönliche webseite"
+#    	   #footerContent = "Enter a text here."
+#
+#        [languages.de.menu]
+#
+#            [[languages.de.menu.main]]
+#            name = "Über"
+#            weight = 1
+#            url = "ueber/"
+#
+#            [[languages.de.menu.main]]
+#            name = "Blog"
+#            weight = 2
+#            url = "posts/"
+#
+#            [[languages.de.menu.main]]
+#            name = "Projekte"
+#            weight = 3
+#            url = "projekte/"
+#
+#           [[languages.de.menu.main]]
+#            name = "Schnipsel"
+#            weight = 4
+#            url = "snippets/"
+#
+#            [[languages.de.menu.main]]
+#            name = "Kontakt"
+#            weight = 5
+#            url = "kontakt/"
+#
