@@ -1,0 +1,33 @@
+{{ if not .Site.Params.hideFooter | default false }}
+  <footer class="footer">
+    <section class="container">
+      {{ with .Site.Params.footerContent | safeHTML }}
+        <p>{{ . }}</p>
+      {{ end }}
+      {{ if not .Site.Params.hideCopyright }}
+        ©
+        {{ if (and (.Site.Params.since) (lt .Site.Params.since now.Year)) }}
+          {{ .Site.Params.since }} -
+        {{ end }}
+        {{ now.Year }}
+        {{ with .Site.Params.author }} {{ . }} {{ end }}
+      {{ end }}
+      {{ if not .Site.Params.hideCredits }}
+        {{ if not .Site.Params.hideCopyright }} · {{ end }}
+        {{ i18n "powered_by" }} <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+      {{ end }}
+      {{ if .Site.Params.commit }}
+        {{ if .GitInfo }}
+          [<a href="{{ .Site.Params.commit }}/{{ .GitInfo.Hash }}">{{ .GitInfo.AbbreviatedHash }}</a>]
+        {{ end }}
+      {{ end }}
+    </section>
+    <p class="h-card vcard">
+   <a style="text-decoration: none" href={{ .Site.BaseURL }} class="p-name u-url url author metatag" rel="me"> {{ .Site.Author.name }} </a> 
+   <a class="p-nickname u-email email metatag" rel="me" href="mailto:{{ .Site.Author.email }}"> {{ .Site.Author.nick }} </a>
+   <!--   <img class="u-photo" src="https://git.chibatsu.net/avatars/c7ff3926452741c710e780c659a0ce4e" alt="" />-->
+</p>
+   <link href="/svemagie.asc" rel="pgpkey me authn">
+  </footer>
+
+{{ end }}

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://svemagie.net/snippets/todo-sync/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://svemagie.net/de/snippets/todo-sync/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://svemagie.net/snippets/todo-sync/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://svemagie.net/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://svemagie.net/de/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://svemagie.net/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://svemagie.net/tags/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://svemagie.net/de/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://svemagie.net/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://svemagie.net/snippets/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://svemagie.net/de/snippets/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://svemagie.net/snippets/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://svemagie.net/tags/unix-housekeeping/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://svemagie.net/snippets/getmail/</loc>
+    <lastmod>2021-01-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://svemagie.net/de/snippets/getmail/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://svemagie.net/snippets/getmail/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://svemagie.net/categories/</loc>
+    <lastmod>2021-01-14T17:30:19+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://svemagie.net/de/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://svemagie.net/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://svemagie.net/posts/pinebook-activitywatch/</loc>
+    <lastmod>2021-01-14T17:30:19+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://svemagie.net/series/pinebookpro/</loc>
+    <lastmod>2021-01-14T17:30:19+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://svemagie.net/tags/pinebookpro/</loc>
+    <lastmod>2021-01-14T17:30:19+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://svemagie.net/posts/</loc>
+    <lastmod>2021-01-14T17:30:19+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://svemagie.net/series/</loc>
+    <lastmod>2021-01-14T17:30:19+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://svemagie.net/de/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://svemagie.net/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://svemagie.net/categories/tech/</loc>
+    <lastmod>2021-01-14T17:30:19+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://svemagie.net/posts/pinebook-pandoc/</loc>
+    <lastmod>2021-01-13T16:34:43+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://svemagie.net/authors/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://svemagie.net/de/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://svemagie.net/authors/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://svemagie.net/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://svemagie.net/de/kontakt/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://svemagie.net/contact/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://svemagie.net/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://svemagie.net/de/ueber/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://svemagie.net/about/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://svemagie.net/projects/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://svemagie.net/de/projekte/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://svemagie.net/projects/"
+                />
+  </url>
+  
+</urlset>

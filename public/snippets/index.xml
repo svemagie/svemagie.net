@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Unix Snippets on svemagie</title>
+    <link>https://svemagie.net/snippets/</link>
+    <description>Recent content in Unix Snippets on svemagie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 20 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://svemagie.net/snippets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GTD: Todoist &lt;-&gt; Taskwarrior</title>
+      <link>https://svemagie.net/snippets/todo-sync/</link>
+      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://svemagie.net/snippets/todo-sync/</guid>
+      <description>Each of my legs stand firmly in one eco-system: most of my work is done on an Apple Powerhorse, but there&amp;rsquo;s other beautiful Unixes, too. Some other things and most of digital leisure happens on a Linux Laptop, the PineBook Pro. So bringing those worlds play along nicely is a task. This time: GTD (Getting things done): managing business and private tasks.
+I work in Unix terminals most of the time, so my nifty taskmanager for the console is console-based taskwarrior.</description>
+    </item>
+    
+    <item>
+      <title>Connection test &amp; get all mail</title>
+      <link>https://svemagie.net/snippets/getmail/</link>
+      <pubDate>Sun, 17 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://svemagie.net/snippets/getmail/</guid>
+      <description>This is the script I call from crontab entry */10 * * * * $HOME/bin/fetchmail.sh.
+First, we check if there&amp;rsquo;s an internet connection, then we fetch all mails via pop and imap.
+#!/bin/bash  ping -c 1 8.8.8.8 2&amp;gt;&amp;amp;1 &amp;gt;/dev/null if [ $? = 0 ] then # mpop mpop -a -q # kill mbsync if stuck killall mbsync &amp;amp;&amp;gt;/dev/null mbsync -a -q fi </description>
+    </item>
+    
+  </channel>
+</rss>

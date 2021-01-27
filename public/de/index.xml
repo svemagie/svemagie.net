@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>svemagie</title>
+    <link>https://svemagie.net/de/</link>
+    <description>Recent content on svemagie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 17 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://svemagie.net/de/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Connection test &amp; get all mail</title>
+      <link>https://svemagie.net/de/snippets/getmail/</link>
+      <pubDate>Sun, 17 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://svemagie.net/de/snippets/getmail/</guid>
+      <description>This is the script I call from crontab entry */10 * * * * $HOME/bin/fetchmail.sh.
+First, we check if there&amp;rsquo;s an internet connection, then we fetch all mails via pop and imap.
+#!/bin/bash  ping -c 1 8.8.8.8 2&amp;gt;&amp;amp;1 &amp;gt;/dev/null if [ $? = 0 ] then # mpop mpop -a -q # kill mbsync if stuck killall mbsync &amp;amp;&amp;gt;/dev/null mbsync -a -q fi </description>
+    </item>
+    
+    <item>
+      <title>Connection test &amp; get all mail</title>
+      <link>https://svemagie.net/de/snippets/todo-sync/</link>
+      <pubDate>Sun, 17 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://svemagie.net/de/snippets/todo-sync/</guid>
+      <description>This is the script I call from crontab entry */10 * * * * $HOME/bin/fetchmail.sh.
+First, we check if there&amp;rsquo;s an internet connection, then we fetch all mails via pop and imap.
+#!/bin/bash  ping -c 1 8.8.8.8 2&amp;gt;&amp;amp;1 &amp;gt;/dev/null if [ $? = 0 ] then # mpop mpop -a -q # kill mbsync if stuck killall mbsync &amp;amp;&amp;gt;/dev/null mbsync -a -q fi </description>
+    </item>
+    
+    <item>
+      <title>Kontakt</title>
+      <link>https://svemagie.net/de/kontakt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://svemagie.net/de/kontakt/</guid>
+      <description>folge mir: @svemagie
+ Fediverse: @svemagie EMail: svemagie@chibatsu.net  </description>
+    </item>
+    
+    <item>
+      <title>Projekte</title>
+      <link>https://svemagie.net/de/projekte/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://svemagie.net/de/projekte/</guid>
+      <description>Nothing to see here&amp;hellip; Move along!</description>
+    </item>
+    
+    <item>
+      <title>Über</title>
+      <link>https://svemagie.net/de/ueber/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://svemagie.net/de/ueber/</guid>
+      <description>noch nicht übersetzt</description>
+    </item>
+    
+  </channel>
+</rss>
