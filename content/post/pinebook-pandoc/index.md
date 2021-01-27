@@ -1,12 +1,11 @@
 ---
 title: "PinebookDiaries: glueing Pandoc"
 date: 2021-01-13T16:34:43+01:00
-tags: [pinebookpro]
-categories: [tech]
-series: ["PinebookPro"]
+author: "svemagie"
 ---
 
 My trusted [PinebookPro](https://www.pine64.org/pinebook-pro/) won't install [pandoc](https://pandoc.org/) per default. 
+
 <!--more-->
 
 Pandoc is [Haskell](https://www.haskell.org/), and Haskell isn't (binary-)available on Arch Linux / Manjaro based Distributions. But there is an debian-arm64 Version of it, so let's install it. It's a bit of an hack, so pacman and yay will complain later. I'll figure out how to avoid it - or even better: how to do it correctly.
