@@ -26,7 +26,7 @@ copyright = "svemagie"
     tag = "tags"
 
 [Params]
-    intro = true
+    intro = false
     headline = "svemagie"
     description = "personal web"
     github = "https://github.com/svemagie"
