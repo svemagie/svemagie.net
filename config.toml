@@ -26,7 +26,7 @@ copyright = "svemagie"
     tag = "tags"
 
 [Params]
-    intro = false
+    intro = true
     headline = "svemagie"
     description = "personal web"
     github = "https://github.com/svemagie"
@@ -38,7 +38,7 @@ copyright = "svemagie"
     feedurl = "https://svemagie.net/index.xml"
     webmentionEndpoint = "https://svemagie.net/webmention"
     pingbackEndpoint = "https://svemagie.net/pingback"
-    #micropubEndpoint = "https://svemagie.net/webmention/micropub"
+    micropubEndpoint = "https://svemagie.net/webmention/micropub"
     email = "svemagie@chibatsu.net"
     opengraph = true
     shareTwitter = false
