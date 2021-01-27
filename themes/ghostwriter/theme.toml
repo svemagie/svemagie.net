@@ -1,0 +1,17 @@
+name = "ghostwriter"
+license = "MIT"
+licenselink = "https://github.com/am1t/ghostwriter/blob/master/LICENSE.md"
+description = "An enhanced port of the Ghost 'ghostwriter' theme to the Hugo site generator"
+homepage = "https://github.com/am1t/ghostwriter"
+tags = ["blog", "technical", "personal"]
+features = ["blog", "technical", "personal"]
+min_version = "0.41"
+
+[author]
+    name = "Amit Gawande"
+    homepage = "https://github.com/am1t"
+
+[original]
+    author = "roryg"
+    homepage = "http://ghost.jollygoodthemes.com/ghostwriter/"
+    repo = "https://github.com/roryg/ghostwriter"
