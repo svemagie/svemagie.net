@@ -8,10 +8,11 @@ After fiddeling with different and various installments and versions of Python o
 
 In short:
 - brew install pyenv
-- pyenv install 3.9.1 - the Python version you want to install
-- pyenv global 3.9.1 - set it as preferred version
+- pyenv install 3.8.7 - the Python version you want to install
+- pyenv global 3.8.7 - set it as preferred version
 - make pyenv known to your login shell ($HOME/.zshrc)
-    if command -v pyenv 1>/dev/null 2>&1; then
+	```
+	if command -v pyenv 1>/dev/null 2>&1; then
  	 eval "$(pyenv init -)"
-    fi
+	fi
 - use python and pip
