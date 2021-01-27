@@ -38,12 +38,12 @@ copyright = "svemagie"
     feedurl = "https://svemagie.net/index.xml"
     webmentionEndpoint = "https://svemagie.net/webmention"
     pingbackEndpoint = "https://svemagie.net/pingback"
-    micropubEndpoint = "https://svemagie.net/webmention/micropub"
+    #micropubEndpoint = "https://svemagie.net/webmention/micropub"
     email = "svemagie@chibatsu.net"
     opengraph = true
-    shareTwitter = true
-    shareFacebook = true
-    shareGooglePlus = true
+    shareTwitter = false
+    shareFacebook = false
+    shareGooglePlus = false
     shareLinkedIn = false
     dateFormat = "Mon, Jan 2, 2006"
     highlightJsUrl = ""
@@ -57,10 +57,10 @@ copyright = "svemagie"
     url = "/"
     weight = 1
 
-[[menu.main]]
-    name = "Projects"
-    url = "/project/"
-    weight = 2
+#[[menu.main]]
+#    name = "Projects"
+#    url = "/project/"
+#    weight = 2
 
 [[menu.main]]
     name = "Contact"
