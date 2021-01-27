@@ -67,7 +67,7 @@ pygmentsCodeFencesGuessSyntax = true
     name = "Gitea"
     icon = "fa fa-gitea"
     weight = 1
-    url = "https://git.chibatsu.net/svemagie/"
+    url = "https://github.com/svemagie/"
 #[[params.social]]
 #    name = "Gitlab"
 #    icon = "fa fa-gitlab"
@@ -101,7 +101,7 @@ pygmentsCodeFencesGuessSyntax = true
     name = "RSS"
     icon = "fa fa-rss"
     weight = 7
-    url = "https://chibatsu.net/~svemagie/index.xml"
+    url = "https://svemagie.net/index.xml"
     rel = "alternate"
     type = "application/rss+xml"
 

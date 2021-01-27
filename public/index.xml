@@ -6,17 +6,7 @@
     <description>Recent content on svemagie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 20 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://svemagie.net/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>GTD: Todoist &lt;-&gt; Taskwarrior</title>
-      <link>https://svemagie.net/snippets/todo-sync/</link>
-      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://svemagie.net/snippets/todo-sync/</guid>
-      <description>Each of my legs stand firmly in one eco-system: most of my work is done on an Apple Powerhorse, but there&amp;rsquo;s other beautiful Unixes, too. Some other things and most of digital leisure happens on a Linux Laptop, the PineBook Pro. So bringing those worlds play along nicely is a task. This time: GTD (Getting things done): managing business and private tasks.
-I work in Unix terminals most of the time, so my nifty taskmanager for the console is console-based taskwarrior.</description>
-    </item>
-    
+    <lastBuildDate>Sun, 17 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://svemagie.net/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Connection test &amp; get all mail</title>
       <link>https://svemagie.net/snippets/getmail/</link>
@@ -26,6 +16,26 @@ I work in Unix terminals most of the time, so my nifty taskmanager for the conso
       <description>This is the script I call from crontab entry */10 * * * * $HOME/bin/fetchmail.sh.
 First, we check if there&amp;rsquo;s an internet connection, then we fetch all mails via pop and imap.
 #!/bin/bash  ping -c 1 8.8.8.8 2&amp;gt;&amp;amp;1 &amp;gt;/dev/null if [ $? = 0 ] then # mpop mpop -a -q # kill mbsync if stuck killall mbsync &amp;amp;&amp;gt;/dev/null mbsync -a -q fi </description>
+    </item>
+    
+    <item>
+      <title>Connection test &amp; get all mail</title>
+      <link>https://svemagie.net/snippets/todo-sync/</link>
+      <pubDate>Sun, 17 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://svemagie.net/snippets/todo-sync/</guid>
+      <description>This is the script I call from crontab entry */10 * * * * $HOME/bin/fetchmail.sh.
+First, we check if there&amp;rsquo;s an internet connection, then we fetch all mails via pop and imap.
+#!/bin/bash  ping -c 1 8.8.8.8 2&amp;gt;&amp;amp;1 &amp;gt;/dev/null if [ $? = 0 ] then # mpop mpop -a -q # kill mbsync if stuck killall mbsync &amp;amp;&amp;gt;/dev/null mbsync -a -q fi </description>
+    </item>
+    
+    <item>
+      <title>Unix Schnipsel</title>
+      <link>https://svemagie.net/snippets/_index.de/</link>
+      <pubDate>Sun, 17 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://svemagie.net/snippets/_index.de/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -64,7 +74,17 @@ First, we check if there&amp;rsquo;s an internet connection, then we fetch all m
       <guid>https://svemagie.net/about/</guid>
       <description>Hello, I&amp;rsquo;m svemagie from people@chibatsu.net, it&amp;rsquo;s a pleasure to meet you!
 My professional and personal interests are:
- social sciences, sociology, ethnography, ethnomethodology, systems theory all things Unix artificial stupidity anarchism  look at the contact page to find out ways to contact me!</description>
+ social sciences, sociology, ethnography, ethnomethodology, systems theory all things Unix artificial stupidity anarchism  see the contact page to find out ways to contact me!</description>
+    </item>
+    
+    <item>
+      <title>Kontakt</title>
+      <link>https://svemagie.net/kontakt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://svemagie.net/kontakt/</guid>
+      <description>folge mir: @svemagie
+ Fediverse: @svemagie EMail: svemagie@chibatsu.net  </description>
     </item>
     
     <item>
@@ -74,6 +94,24 @@ My professional and personal interests are:
       
       <guid>https://svemagie.net/projects/</guid>
       <description> a lot of smaller Unix related projects, nothing special to talk about admin of all things chibatsu.net my own digital version of Luhmann&amp;rsquo;s Zettelkasten  </description>
+    </item>
+    
+    <item>
+      <title>Projekte</title>
+      <link>https://svemagie.net/projekte/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://svemagie.net/projekte/</guid>
+      <description>Nothing to see here&amp;hellip; Move along!</description>
+    </item>
+    
+    <item>
+      <title>Über</title>
+      <link>https://svemagie.net/ueber/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://svemagie.net/ueber/</guid>
+      <description>noch nicht übersetzt</description>
     </item>
     
   </channel>

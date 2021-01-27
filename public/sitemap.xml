@@ -1,18 +1,98 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-  <sitemap>
-    <loc>https://svemagie.net/de/sitemap.xml</loc>
-    
-      <lastmod>2021-01-17T00:00:00+00:00</lastmod>
-    
-  </sitemap>
+  <url>
+    <loc>https://svemagie.net/snippets/getmail/</loc>
+    <lastmod>2021-01-17T00:00:00+00:00</lastmod>
+  </url>
   
-  <sitemap>
-    <loc>https://svemagie.net/en/sitemap.xml</loc>
-    
-      <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-    
-  </sitemap>
+  <url>
+    <loc>https://svemagie.net/snippets/todo-sync/</loc>
+    <lastmod>2021-01-17T00:00:00+00:00</lastmod>
+  </url>
   
-</sitemapindex>
+  <url>
+    <loc>https://svemagie.net/</loc>
+    <lastmod>2021-01-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://svemagie.net/snippets/_index.de/</loc>
+    <lastmod>2021-01-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://svemagie.net/categories/</loc>
+    <lastmod>2021-01-14T17:30:19+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://svemagie.net/posts/pinebook-activitywatch/</loc>
+    <lastmod>2021-01-14T17:30:19+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://svemagie.net/series/pinebookpro/</loc>
+    <lastmod>2021-01-14T17:30:19+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://svemagie.net/tags/pinebookpro/</loc>
+    <lastmod>2021-01-14T17:30:19+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://svemagie.net/posts/</loc>
+    <lastmod>2021-01-14T17:30:19+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://svemagie.net/series/</loc>
+    <lastmod>2021-01-14T17:30:19+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://svemagie.net/tags/</loc>
+    <lastmod>2021-01-14T17:30:19+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://svemagie.net/categories/tech/</loc>
+    <lastmod>2021-01-14T17:30:19+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://svemagie.net/posts/pinebook-pandoc/</loc>
+    <lastmod>2021-01-13T16:34:43+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://svemagie.net/authors/</loc>
+  </url>
+  
+  <url>
+    <loc>https://svemagie.net/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://svemagie.net/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://svemagie.net/kontakt/</loc>
+  </url>
+  
+  <url>
+    <loc>https://svemagie.net/projects/</loc>
+  </url>
+  
+  <url>
+    <loc>https://svemagie.net/projekte/</loc>
+  </url>
+  
+  <url>
+    <loc>https://svemagie.net/ueber/</loc>
+  </url>
+  
+</urlset>
