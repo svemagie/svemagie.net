@@ -2,7 +2,6 @@
 title = "PinebookDiaries: installing ActivityWatch"
 date = 2021-01-14T17:30:19+01:00
 author = "svemagie"
-featured = "true"
 +++
 
 I consider myself as quite a bit of a data-junkie, lifelogger, selftracker- and hacker and I generate lots of data. Except on the [PinebookPro](https://www.pine64.org/pinebook-pro/) - until now.
