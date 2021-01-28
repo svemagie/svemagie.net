@@ -18,18 +18,28 @@
       {{ .Site.Params.since }} -
     {{ end }}
     {{- $current }}
+<<<<<<< HEAD
 <!--    <span class="heart">
+=======
+    <span class="heart">
+>>>>>>> f1aba3430984038c668fc6bf6cd86aaf2b5e9705
       {{/* icon heart */}}
       <i class="iconfont">
         {{ partial "svg/heart.svg" }}
       </i>
+<<<<<<< HEAD
 </span>-->
 <!--    {{- if or .Site.Copyright .Site.Author.name -}}
+=======
+    </span>
+    {{- if or .Site.Copyright .Site.Author.name -}}
+>>>>>>> f1aba3430984038c668fc6bf6cd86aaf2b5e9705
       <span class="author">
         {{if .Site.Copyright }}{{ .Site.Copyright | safeHTML }}
         {{ else }}{{ .Site.Author.name | safeHTML }}
         {{ end }}
       </span>
+<<<<<<< HEAD
       {{- end -}}-->
     <span class="author h-card vcard">
 	    <!--	<p class="h-card vcard">-->
@@ -38,6 +48,10 @@
 	    <img class="u-photo" src="img/headshot.png" alt="" />
 	    <!--</p>-->
     </span>
+=======
+    {{- end -}}
+  </span>
+>>>>>>> f1aba3430984038c668fc6bf6cd86aaf2b5e9705
 
   <!-- Counter busuanzi -->
   {{ if .Site.Params.counter.busuanzi.enable }}

@@ -22,8 +22,11 @@ defaultContentLanguage = "en"           # Default language to use
 
 [author]                  # essential                     # 必需
   name = "svemagie"
+<<<<<<< HEAD
   nick = "svemagie@anche.no"
   email = "mailto:svemagie@anche.no"
+=======
+>>>>>>> f1aba3430984038c668fc6bf6cd86aaf2b5e9705
 
 [sitemap]                 # essential                     # 必需
   changefreq = "weekly"
