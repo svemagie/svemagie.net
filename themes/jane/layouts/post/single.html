@@ -1,6 +1,5 @@
 {{ define "content" -}}
 
-<<<<<<< HEAD
   <article class="post bg-white h-entry">
     <!-- post-header -->
     <header class="post-header">
@@ -8,15 +7,6 @@
       {{ partial "post/i18nlist.html" . }}
       <div class="post-meta">
         <time datetime="{{ .Date.Format "2006-01-02" }}" class="post-time dt-published">
-=======
-  <article class="post bg-white">
-    <!-- post-header -->
-    <header class="post-header">
-      <h1 class="post-title">{{ .Title }}</h1>
-      {{ partial "post/i18nlist.html" . }}
-      <div class="post-meta">
-        <time datetime="{{ .Date.Format "2006-01-02" }}" class="post-time">
->>>>>>> f1aba3430984038c668fc6bf6cd86aaf2b5e9705
           {{ .Date.Format (.Site.Params.dateFormatToUse | default "2006-01-02") }}
         </time>
         {{ with .Params.categories -}}
@@ -24,11 +14,8 @@
             {{ range . }}
             {{- $name := . -}}
             {{- with $.Site.GetPage "taxonomy" (printf "categories/%s" $name) | default ($.Site.GetPage "taxonomy" (printf "categories/%s" ($name | urlize))) -}}
-<<<<<<< HEAD
               <a class="u-url" href="{{ .Permalink }}"> {{ $name }} </a>
-=======
               <a href="{{ .Permalink }}"> {{ $name }} </a>
->>>>>>> f1aba3430984038c668fc6bf6cd86aaf2b5e9705
             {{ end -}}
             {{ end }}
           </div>
@@ -59,11 +46,7 @@
     {{ partial "post/toc.html" . }}
 
     <!-- Content -->
-<<<<<<< HEAD
     <div class="post-content e-content">
-=======
-    <div class="post-content">
->>>>>>> f1aba3430984038c668fc6bf6cd86aaf2b5e9705
       {{ .Content }}
     </div>
 
