@@ -25,13 +25,13 @@
         {{ partial "svg/heart.svg" }}
       </i>
 </span>-->
-    {{- if or .Site.Copyright .Site.Author.name -}}
+<!--    {{- if or .Site.Copyright .Site.Author.name -}}
       <span class="author">
         {{if .Site.Copyright }}{{ .Site.Copyright | safeHTML }}
         {{ else }}{{ .Site.Author.name | safeHTML }}
         {{ end }}
       </span>
-      {{- end -}}
+      {{- end -}}-->
     <span class="author h-card vcard">
 	    <!--	<p class="h-card vcard">-->
 	    <a style="text-decoration: none" href={{ .Site.BaseURL }} class="p-name u-url url author metatag" rel="me"> {{ .Site.Author.name }} </a> |
