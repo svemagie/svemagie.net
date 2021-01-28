@@ -1,7 +1,8 @@
 ---
 title: "Pyenv - Installing Python on MacOS"
 date: 2021-01-27T22:09:18+01:00
-tags: [python, sysadmin, snippets]
+tags: [python, snippets]
+categories: [sysadmin]
 ---
 
 After fiddeling with different and various installments and versions of Python on MacOS, I stumbled over the article [The right and wrong way to set Python 3 as default on a Mac](https://opensource.com/article/19/5/python-3-default-mac) - which works like a charm!
