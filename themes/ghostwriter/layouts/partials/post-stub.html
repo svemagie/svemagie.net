@@ -4,7 +4,7 @@
 		<time style="color: #424242; text-decoration:none;" class="post-stub-date" datetime="{{ .Date.Format "2006-01-02" }}"> {{ dateFormat ("Jan 2 '06") .Date }}</time>
 		<span style="color: #424242; text-decoration:none;">・{{ .ReadingTime }} mins </span>
 		{{ if .Params.refs }} <span class="icn">→</span> {{end}}
-        <p class="post-summary">{{ .Summary }} </p><p>..<span style= "color: #0366d6;">cont'd.</span></p>
+        <p class="post-summary">{{ .Summary }} </p><p>... <span style= "color: #0366d6;">cont'd</span></p>
         {{ with .Params.featured }}
             <span class="post-stub-tag">Featured</span>
         {{ end }}
