@@ -1,0 +1,56 @@
+<div class="icon-links">
+  {{ partial "social_links.html" . }} 
+</div>
+
+<div class="copyright">
+<!--  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - <a class="theme-link" href="https://github.com/xianmin/hugo-theme-jane">Jane</a>
+  </span>-->
+
+  <span class="copyright-year">
+    {{- $current := now.Format "2006" }}
+    &copy;
+    {{ if ne .Site.Params.since $current }}
+      {{ .Site.Params.since }} -
+    {{ end }}
+    {{- $current }}
+<!--    <span class="heart">
+    <span class="heart">
+      {{/* icon heart */}}
+      <i class="iconfont">
+        {{ partial "svg/heart.svg" }}
+      </i>
+</span>-->
+<!--    {{- if or .Site.Copyright .Site.Author.name -}}
+      <span class="author">
+        {{if .Site.Copyright }}{{ .Site.Copyright | safeHTML }}
+        {{ else }}{{ .Site.Author.name | safeHTML }}
+        {{ end }}
+      </span>
+      {{- end -}}-->
+    <span class="author h-card vcard">
+	    <!--	<p class="h-card vcard">-->
+	    <a style="text-decoration: none" href={{ .Site.BaseURL }} class="p-name u-url url author metatag" rel="me"> {{ .Site.Author.name }} </a> |
+	    <a class="p-nickname u-email email metatag" rel="me" href="mailto:{{ .Site.Author.email }}"> {{ .Site.Author.nick }} </a>
+	    <img class="u-photo" src="/headshot.png" alt="" />
+	    <!--</p>-->
+    </span>
+  </span>
+
+  <!-- Counter busuanzi -->
+  {{ if .Site.Params.counter.busuanzi.enable }}
+    <span id="busuanzi_container">
+      访客数/访问量：<span id="busuanzi_value_site_uv"></span>/<span id="busuanzi_value_site_pv"></span>
+    </span>
+  {{ end }}
+
+  {{ if .Site.Params.customFooter }}
+    <span>
+      {{ .Site.Params.customFooter | safeHTML }}
+    </span>
+  {{ end }}
+</div>
