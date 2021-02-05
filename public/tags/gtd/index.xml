@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gtd on svemagie</title>
+    <link>http://svemagie.net/tags/gtd/</link>
+    <description>Recent content in gtd on svemagie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>mailto:svemagie@anche.no (svemagie)</managingEditor>
+    <webMaster>mailto:svemagie@anche.no (svemagie)</webMaster>
+    <lastBuildDate>Wed, 20 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://svemagie.net/tags/gtd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GTD: Todoist &lt;-&gt; Taskwarrior</title>
+      <link>http://svemagie.net/post/sync-todo/</link>
+      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
+      <author>mailto:svemagie@anche.no (svemagie)</author>
+      <guid>http://svemagie.net/post/sync-todo/</guid>
+      <description>Each of my legs stands firmly in one eco-system: most of my work is done on an Apple Powerhorse, but there are other beautiful Unixes, too. Some other things and most of my digital leisure happens on a Linux Laptop, the PineBook Pro. So bringing those worlds play along nicely is a task. This time: GTD (Getting things done): managing business and private tasks.
+I work in Unix terminals most of the time, so my nifty taskmanager for the console is Taskwarrior.</description>
+    </item>
+    
+  </channel>
+</rss>

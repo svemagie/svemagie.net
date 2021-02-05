@@ -1,98 +1,149 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<?xml-stylesheet type="text/xsl" href="http://svemagie.net/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://svemagie.net/snippets/getmail/</loc>
+    <loc>http://svemagie.net/categories/</loc>
+    <lastmod>2021-01-27T22:09:18+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://svemagie.net/post/</loc>
+    <lastmod>2021-01-27T22:09:18+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://svemagie.net/post/pyenv-macos/</loc>
+    <lastmod>2021-01-27T22:09:18+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://svemagie.net/tags/python/</loc>
+    <lastmod>2021-01-27T22:09:18+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://svemagie.net/tags/snippets/</loc>
+    <lastmod>2021-01-27T22:09:18+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://svemagie.net/</loc>
+    <lastmod>2021-01-27T22:09:18+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://svemagie.net/categories/sysadmin/</loc>
+    <lastmod>2021-01-27T22:09:18+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://svemagie.net/tags/</loc>
+    <lastmod>2021-01-27T22:09:18+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://svemagie.net/tags/gtd/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://svemagie.net/post/sync-todo/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://svemagie.net/tags/pinebook/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://svemagie.net/post/getallmail/</loc>
     <lastmod>2021-01-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://svemagie.net/snippets/todo-sync/</loc>
+    <loc>http://svemagie.net/tags/mail/</loc>
     <lastmod>2021-01-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://svemagie.net/</loc>
-    <lastmod>2021-01-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://svemagie.net/snippets/_index.de/</loc>
-    <lastmod>2021-01-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://svemagie.net/categories/</loc>
+    <loc>http://svemagie.net/tags/lifelogging/</loc>
     <lastmod>2021-01-14T17:30:19+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://svemagie.net/posts/pinebook-activitywatch/</loc>
+    <loc>http://svemagie.net/post/pinebook-activitywatch/</loc>
     <lastmod>2021-01-14T17:30:19+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://svemagie.net/series/pinebookpro/</loc>
+    <loc>http://svemagie.net/tags/quantified-self/</loc>
     <lastmod>2021-01-14T17:30:19+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://svemagie.net/tags/pinebookpro/</loc>
+    <loc>http://svemagie.net/categories/quantifiedself/</loc>
     <lastmod>2021-01-14T17:30:19+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://svemagie.net/posts/</loc>
-    <lastmod>2021-01-14T17:30:19+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://svemagie.net/series/</loc>
-    <lastmod>2021-01-14T17:30:19+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://svemagie.net/tags/</loc>
-    <lastmod>2021-01-14T17:30:19+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://svemagie.net/categories/tech/</loc>
-    <lastmod>2021-01-14T17:30:19+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://svemagie.net/posts/pinebook-pandoc/</loc>
+    <loc>http://svemagie.net/tags/markdown/</loc>
     <lastmod>2021-01-13T16:34:43+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://svemagie.net/authors/</loc>
+    <loc>http://svemagie.net/post/pinebook-pandoc/</loc>
+    <lastmod>2021-01-13T16:34:43+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://svemagie.net/contact/</loc>
+    <loc>http://svemagie.net/contact/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://svemagie.net/about/</loc>
-  </url>
-  
-  <url>
-    <loc>https://svemagie.net/kontakt/</loc>
-  </url>
-  
-  <url>
-    <loc>https://svemagie.net/projects/</loc>
-  </url>
-  
-  <url>
-    <loc>https://svemagie.net/projekte/</loc>
-  </url>
-  
-  <url>
-    <loc>https://svemagie.net/ueber/</loc>
+    <loc>http://svemagie.net/about/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
 </urlset>

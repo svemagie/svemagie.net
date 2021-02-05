@@ -2,17 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on svemagie</title>
-    <link>https://svemagie.net/categories/</link>
+    <link>http://svemagie.net/categories/</link>
     <description>Recent content in Categories on svemagie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 14 Jan 2021 17:30:19 +0100</lastBuildDate><atom:link href="https://svemagie.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>mailto:svemagie@anche.no (svemagie)</managingEditor>
+    <webMaster>mailto:svemagie@anche.no (svemagie)</webMaster>
+    <lastBuildDate>Wed, 27 Jan 2021 22:09:18 +0100</lastBuildDate><atom:link href="http://svemagie.net/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>tech</title>
-      <link>https://svemagie.net/categories/tech/</link>
+      <title>sysadmin</title>
+      <link>http://svemagie.net/categories/sysadmin/</link>
+      <pubDate>Wed, 27 Jan 2021 22:09:18 +0100</pubDate>
+      <author>mailto:svemagie@anche.no (svemagie)</author>
+      <guid>http://svemagie.net/categories/sysadmin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>quantifiedself</title>
+      <link>http://svemagie.net/categories/quantifiedself/</link>
       <pubDate>Thu, 14 Jan 2021 17:30:19 +0100</pubDate>
-      
-      <guid>https://svemagie.net/categories/tech/</guid>
+      <author>mailto:svemagie@anche.no (svemagie)</author>
+      <guid>http://svemagie.net/categories/quantifiedself/</guid>
       <description></description>
     </item>
     

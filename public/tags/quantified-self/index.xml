@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>quantified self on svemagie</title>
+    <link>http://svemagie.net/tags/quantified-self/</link>
+    <description>Recent content in quantified self on svemagie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>mailto:svemagie@anche.no (svemagie)</managingEditor>
+    <webMaster>mailto:svemagie@anche.no (svemagie)</webMaster>
+    <lastBuildDate>Thu, 14 Jan 2021 17:30:19 +0100</lastBuildDate><atom:link href="http://svemagie.net/tags/quantified-self/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PinebookDiaries: installing ActivityWatch</title>
+      <link>http://svemagie.net/post/pinebook-activitywatch/</link>
+      <pubDate>Thu, 14 Jan 2021 17:30:19 +0100</pubDate>
+      <author>mailto:svemagie@anche.no (svemagie)</author>
+      <guid>http://svemagie.net/post/pinebook-activitywatch/</guid>
+      <description>I consider myself as quite a bit of a data-junkie, lifelogger, selftracker- and hacker and I generate lots of data. Except on the PinebookPro - until now.
+Here are the steps to get ActivityWatch built and installed on the PinebookPro (there is an AUR-bin, but for i386, no arm64):
+QD (quick &amp;lsquo;n dirty) overview of the dependencies, build and install process: Use their doc section Installing from source. watch the dependencies (python3.</description>
+    </item>
+    
+  </channel>
+</rss>

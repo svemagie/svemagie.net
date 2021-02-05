@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>snippets on svemagie</title>
+    <link>http://svemagie.net/tags/snippets/</link>
+    <description>Recent content in snippets on svemagie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>mailto:svemagie@anche.no (svemagie)</managingEditor>
+    <webMaster>mailto:svemagie@anche.no (svemagie)</webMaster>
+    <lastBuildDate>Wed, 27 Jan 2021 22:09:18 +0100</lastBuildDate><atom:link href="http://svemagie.net/tags/snippets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pyenv - Installing Python on MacOS</title>
+      <link>http://svemagie.net/post/pyenv-macos/</link>
+      <pubDate>Wed, 27 Jan 2021 22:09:18 +0100</pubDate>
+      <author>mailto:svemagie@anche.no (svemagie)</author>
+      <guid>http://svemagie.net/post/pyenv-macos/</guid>
+      <description>After fiddeling with different and various installments and versions of Python on MacOS, I stumbled over the article The right and wrong way to set Python 3 as default on a Mac - which works like a charm!
+In short:
+ brew install pyenv pyenv install 3.8.7 - the Python version you want to install pyenv global 3.8.7 - set it as preferred version make pyenv known to your login shell ($HOME/.</description>
+    </item>
+    
+    <item>
+      <title>GTD: Todoist &lt;-&gt; Taskwarrior</title>
+      <link>http://svemagie.net/post/sync-todo/</link>
+      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
+      <author>mailto:svemagie@anche.no (svemagie)</author>
+      <guid>http://svemagie.net/post/sync-todo/</guid>
+      <description>Each of my legs stands firmly in one eco-system: most of my work is done on an Apple Powerhorse, but there are other beautiful Unixes, too. Some other things and most of my digital leisure happens on a Linux Laptop, the PineBook Pro. So bringing those worlds play along nicely is a task. This time: GTD (Getting things done): managing business and private tasks.
+I work in Unix terminals most of the time, so my nifty taskmanager for the console is Taskwarrior.</description>
+    </item>
+    
+    <item>
+      <title>Connection test &amp; get all mail</title>
+      <link>http://svemagie.net/post/getallmail/</link>
+      <pubDate>Sun, 17 Jan 2021 00:00:00 +0000</pubDate>
+      <author>mailto:svemagie@anche.no (svemagie)</author>
+      <guid>http://svemagie.net/post/getallmail/</guid>
+      <description>This is the script I call from crontab entry */10 * * * * $HOME/bin/fetchmail.sh.
+First, we check if there&amp;rsquo;s an internet connection, then we fetch all mails via pop and imap.
+#!/bin/bash ping -c 1 8.8.8.8 2&amp;gt;&amp;amp;1 &amp;gt;/dev/null if [ $? = 0 ] then # mpop mpop -a -q # kill mbsync if stuck killall mbsync &amp;amp;&amp;gt;/dev/null mbsync -a -q fi </description>
+    </item>
+    
+  </channel>
+</rss>

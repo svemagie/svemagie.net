@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>markdown on svemagie</title>
+    <link>http://svemagie.net/tags/markdown/</link>
+    <description>Recent content in markdown on svemagie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>mailto:svemagie@anche.no (svemagie)</managingEditor>
+    <webMaster>mailto:svemagie@anche.no (svemagie)</webMaster>
+    <lastBuildDate>Wed, 13 Jan 2021 16:34:43 +0100</lastBuildDate><atom:link href="http://svemagie.net/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PinebookDiaries: glueing Pandoc</title>
+      <link>http://svemagie.net/post/pinebook-pandoc/</link>
+      <pubDate>Wed, 13 Jan 2021 16:34:43 +0100</pubDate>
+      <author>mailto:svemagie@anche.no (svemagie)</author>
+      <guid>http://svemagie.net/post/pinebook-pandoc/</guid>
+      <description>My trusted PinebookPro won&amp;rsquo;t install pandoc per default.
+Pandoc is Haskell, and Haskell isn&amp;rsquo;t (binary-)available on Arch Linux / Manjaro based Distributions. But there is an debian-arm64 Version of it, so let&amp;rsquo;s install it. It&amp;rsquo;s a bit of an hack, so pacman and yay will complain later. I&amp;rsquo;ll figure out how to avoid it - or even better: how to do it correctly.
+  install some tools and depencies:</description>
+    </item>
+    
+  </channel>
+</rss>

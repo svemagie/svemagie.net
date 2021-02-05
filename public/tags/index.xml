@@ -2,17 +2,82 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on svemagie</title>
-    <link>https://svemagie.net/tags/</link>
+    <link>http://svemagie.net/tags/</link>
     <description>Recent content in Tags on svemagie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 14 Jan 2021 17:30:19 +0100</lastBuildDate><atom:link href="https://svemagie.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>mailto:svemagie@anche.no (svemagie)</managingEditor>
+    <webMaster>mailto:svemagie@anche.no (svemagie)</webMaster>
+    <lastBuildDate>Wed, 27 Jan 2021 22:09:18 +0100</lastBuildDate><atom:link href="http://svemagie.net/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>pinebookpro</title>
-      <link>https://svemagie.net/tags/pinebookpro/</link>
+      <title>python</title>
+      <link>http://svemagie.net/tags/python/</link>
+      <pubDate>Wed, 27 Jan 2021 22:09:18 +0100</pubDate>
+      <author>mailto:svemagie@anche.no (svemagie)</author>
+      <guid>http://svemagie.net/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>snippets</title>
+      <link>http://svemagie.net/tags/snippets/</link>
+      <pubDate>Wed, 27 Jan 2021 22:09:18 +0100</pubDate>
+      <author>mailto:svemagie@anche.no (svemagie)</author>
+      <guid>http://svemagie.net/tags/snippets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gtd</title>
+      <link>http://svemagie.net/tags/gtd/</link>
+      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
+      <author>mailto:svemagie@anche.no (svemagie)</author>
+      <guid>http://svemagie.net/tags/gtd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pinebook</title>
+      <link>http://svemagie.net/tags/pinebook/</link>
+      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
+      <author>mailto:svemagie@anche.no (svemagie)</author>
+      <guid>http://svemagie.net/tags/pinebook/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mail</title>
+      <link>http://svemagie.net/tags/mail/</link>
+      <pubDate>Sun, 17 Jan 2021 00:00:00 +0000</pubDate>
+      <author>mailto:svemagie@anche.no (svemagie)</author>
+      <guid>http://svemagie.net/tags/mail/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lifelogging</title>
+      <link>http://svemagie.net/tags/lifelogging/</link>
       <pubDate>Thu, 14 Jan 2021 17:30:19 +0100</pubDate>
-      
-      <guid>https://svemagie.net/tags/pinebookpro/</guid>
+      <author>mailto:svemagie@anche.no (svemagie)</author>
+      <guid>http://svemagie.net/tags/lifelogging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>quantified self</title>
+      <link>http://svemagie.net/tags/quantified-self/</link>
+      <pubDate>Thu, 14 Jan 2021 17:30:19 +0100</pubDate>
+      <author>mailto:svemagie@anche.no (svemagie)</author>
+      <guid>http://svemagie.net/tags/quantified-self/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>markdown</title>
+      <link>http://svemagie.net/tags/markdown/</link>
+      <pubDate>Wed, 13 Jan 2021 16:34:43 +0100</pubDate>
+      <author>mailto:svemagie@anche.no (svemagie)</author>
+      <guid>http://svemagie.net/tags/markdown/</guid>
       <description></description>
     </item>
     

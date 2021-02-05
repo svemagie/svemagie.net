@@ -2,116 +2,216 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>svemagie</title>
-    <link>https://svemagie.net/</link>
+    <link>http://svemagie.net/</link>
     <description>Recent content on svemagie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 17 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://svemagie.net/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>mailto:svemagie@anche.no (svemagie)</managingEditor>
+    <webMaster>mailto:svemagie@anche.no (svemagie)</webMaster>
+    <lastBuildDate>Wed, 27 Jan 2021 22:09:18 +0100</lastBuildDate>
+    
+        <atom:link href="http://svemagie.net/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
-      <title>Connection test &amp; get all mail</title>
-      <link>https://svemagie.net/snippets/getmail/</link>
-      <pubDate>Sun, 17 Jan 2021 00:00:00 +0000</pubDate>
+      <title>Pyenv - Installing Python on MacOS</title>
+      <link>http://svemagie.net/post/pyenv-macos/</link>
+      <pubDate>Wed, 27 Jan 2021 22:09:18 +0100</pubDate>
+      <author>mailto:svemagie@anche.no (svemagie)</author>
+      <guid>http://svemagie.net/post/pyenv-macos/</guid>
       
-      <guid>https://svemagie.net/snippets/getmail/</guid>
-      <description>This is the script I call from crontab entry */10 * * * * $HOME/bin/fetchmail.sh.
-First, we check if there&amp;rsquo;s an internet connection, then we fetch all mails via pop and imap.
-#!/bin/bash  ping -c 1 8.8.8.8 2&amp;gt;&amp;amp;1 &amp;gt;/dev/null if [ $? = 0 ] then # mpop mpop -a -q # kill mbsync if stuck killall mbsync &amp;amp;&amp;gt;/dev/null mbsync -a -q fi </description>
+        <description>&lt;p&gt;After fiddeling with different and various installments and versions of Python on MacOS, I stumbled over the article &lt;a href=&#34;https://opensource.com/article/19/5/python-3-default-mac&#34;&gt;The right and wrong way to set Python 3 as default on a Mac&lt;/a&gt; - which works like a charm!&lt;/p&gt;
+&lt;p&gt;In short:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;brew install pyenv&lt;/li&gt;
+&lt;li&gt;pyenv install 3.8.7 - the Python version you want to install&lt;/li&gt;
+&lt;li&gt;pyenv global 3.8.7 - set it as preferred version&lt;/li&gt;
+&lt;li&gt;make pyenv known to your login shell ($HOME/.zshrc)
+&lt;pre&gt;&lt;code&gt;if command -v pyenv 1&amp;gt;/dev/null 2&amp;gt;&amp;amp;1; then
+ eval &amp;quot;$(pyenv init -)&amp;quot;
+fi
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;use python and pip&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>GTD: Todoist &lt;-&gt; Taskwarrior</title>
+      <link>http://svemagie.net/post/sync-todo/</link>
+      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
+      <author>mailto:svemagie@anche.no (svemagie)</author>
+      <guid>http://svemagie.net/post/sync-todo/</guid>
+      
+        <description>&lt;p&gt;Each of my legs stands firmly in one eco-system: most of my work is done on an Apple Powerhorse, but there are other beautiful Unixes, too. Some other things and most of my digital leisure happens on a Linux Laptop, the &lt;a href=&#34;http://svemagie.net/tags/pinebook/&#34;&gt;PineBook Pro&lt;/a&gt;. So bringing those worlds play along nicely is a task. This time: GTD (Getting things done): managing business and private tasks.&lt;/p&gt;
+&lt;p&gt;I work in Unix terminals most of the time, so my nifty taskmanager for the console is &lt;a href=&#34;https://taskwarrior.org/&#34;&gt;Taskwarrior&lt;/a&gt;. On MacOS and iOS I moved from &lt;a href=&#34;https://www.omnigroup.com/omnifocus&#34;&gt;Omnifocus&lt;/a&gt; to Todoist, and back and forth again. Those switches are more or less project-bound: heavy duty task- and projectmanagement is done on Omnifocus, everyday managing is on Todoist.&lt;/p&gt;
+&lt;p&gt;I recently found a nice script which does the syncing of Taskwarrior and Todoist: &lt;a href=&#34;https://github.com/StefanBRas/todoist-taskwarrior&#34;&gt;https://github.com/StefanBRas/todoist-taskwarrior&lt;/a&gt; (which is a fork of &lt;a href=&#34;https://github.com/matt-snider/todoist-taskwarrior)&#34;&gt;https://github.com/matt-snider/todoist-taskwarrior)&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;in-short&#34;&gt;In short:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;configure it: &lt;code&gt;./venv/bin/titwsync configure --map-project Inbox= --map-project Company=work --map-project Company.SubProject=work.subproject --map-tag books=reading &amp;lt;TODOIST_API_KEY&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;setup a crontab: &lt;code&gt;./venv/bin/titwsync sync&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
     </item>
     
     <item>
       <title>Connection test &amp; get all mail</title>
-      <link>https://svemagie.net/snippets/todo-sync/</link>
+      <link>http://svemagie.net/post/getallmail/</link>
       <pubDate>Sun, 17 Jan 2021 00:00:00 +0000</pubDate>
+      <author>mailto:svemagie@anche.no (svemagie)</author>
+      <guid>http://svemagie.net/post/getallmail/</guid>
       
-      <guid>https://svemagie.net/snippets/todo-sync/</guid>
-      <description>This is the script I call from crontab entry */10 * * * * $HOME/bin/fetchmail.sh.
-First, we check if there&amp;rsquo;s an internet connection, then we fetch all mails via pop and imap.
-#!/bin/bash  ping -c 1 8.8.8.8 2&amp;gt;&amp;amp;1 &amp;gt;/dev/null if [ $? = 0 ] then # mpop mpop -a -q # kill mbsync if stuck killall mbsync &amp;amp;&amp;gt;/dev/null mbsync -a -q fi </description>
-    </item>
-    
-    <item>
-      <title>Unix Schnipsel</title>
-      <link>https://svemagie.net/snippets/_index.de/</link>
-      <pubDate>Sun, 17 Jan 2021 00:00:00 +0000</pubDate>
+        <description>&lt;p&gt;This is the script I call from crontab entry  &lt;code&gt;*/10 * * * * $HOME/bin/fetchmail.sh&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;First, we check if there&amp;rsquo;s an internet connection, then we fetch all mails via pop and imap.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;#!/bin/bash
+
+ping -c 1 8.8.8.8 2&amp;gt;&amp;amp;1 &amp;gt;/dev/null
+if [ $? = 0 ]
+  then
+    # mpop
+    mpop -a -q
+    # kill mbsync if stuck
+    killall mbsync &amp;amp;&amp;gt;/dev/null
+    mbsync -a -q
+fi
+&lt;/code&gt;&lt;/pre&gt;</description>
       
-      <guid>https://svemagie.net/snippets/_index.de/</guid>
-      <description></description>
     </item>
     
     <item>
       <title>PinebookDiaries: installing ActivityWatch</title>
-      <link>https://svemagie.net/posts/pinebook-activitywatch/</link>
+      <link>http://svemagie.net/post/pinebook-activitywatch/</link>
       <pubDate>Thu, 14 Jan 2021 17:30:19 +0100</pubDate>
+      <author>mailto:svemagie@anche.no (svemagie)</author>
+      <guid>http://svemagie.net/post/pinebook-activitywatch/</guid>
       
-      <guid>https://svemagie.net/posts/pinebook-activitywatch/</guid>
-      <description>&lt;p&gt;I consider myself as quite a bit of a data-junkie, lifelogger, selftracker- and hacker and I generate lots of data. Except on the &lt;a href=&#34;https://www.pine64.org/pinebook-pro/&#34;&gt;PinebookPro&lt;/a&gt; - until now.&lt;/p&gt;</description>
+        <description>&lt;p&gt;I consider myself as quite a bit of a data-junkie, lifelogger, selftracker- and hacker and I generate lots of data. Except on the &lt;a href=&#34;https://www.pine64.org/pinebook-pro/&#34;&gt;PinebookPro&lt;/a&gt; - until now.&lt;/p&gt;
+&lt;p&gt;Here are the steps to get &lt;a href=&#34;https://activitywatch.net/&#34;&gt;ActivityWatch&lt;/a&gt; built and installed on the PinebookPro (there is an AUR-bin, but for i386, no arm64):&lt;/p&gt;
+&lt;h2 id=&#34;qd-quick-n-dirty-overview-of-the-dependencies-build-and-install-process&#34;&gt;QD (quick &amp;lsquo;n dirty) overview of the dependencies, build and install process:&lt;/h2&gt;
+&lt;p&gt;Use their doc section &lt;a href=&#34;https://docs.activitywatch.net/en/latest/installing-from-source.html#&#34;&gt;Installing from source&lt;/a&gt;. watch the dependencies (python3.9 works for me btw)&lt;/p&gt;
+&lt;p&gt;install additional dependencies:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;yay -S rustup python-pymongo python-flask-restx python-flask-cors python-pyqt5-stubs (and/or python-mongomock?)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;update rust nightly:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;rustup install nightly &amp;amp;&amp;amp; rustup default nightly
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Everything ran fine, except for aw-watcher-afk: correct way of getting it to compile: update the poetry lockfile via command&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;poetry lock
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;try to compile (PyQT5 compiles quite a while - and breaks finally)&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;make build (&amp;amp;&amp;amp; make package)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I just copied everything to /opt; copied and enabled aw-server-rust.service which is found in the directory of aw-server-rust; let the watchers start with windowmanager i3 startup config&lt;/p&gt;
+&lt;h2 id=&#34;todo&#34;&gt;todo:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;debug the build process of &amp;lsquo;aw-watcher-afk&amp;rsquo; and the QT5 App. But even without this building cleanly, all 3 programs start up and everything is working on the user side. So the breaking builds are somewhat cosmetic. Not ready for release (see next point), though, but fine for my usage on the Pinebook.&lt;/li&gt;
+&lt;li&gt;If I figure out the Arch/AUR build system, maybe submit a patch - any ideas on this?&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
     </item>
     
     <item>
       <title>PinebookDiaries: glueing Pandoc</title>
-      <link>https://svemagie.net/posts/pinebook-pandoc/</link>
+      <link>http://svemagie.net/post/pinebook-pandoc/</link>
       <pubDate>Wed, 13 Jan 2021 16:34:43 +0100</pubDate>
+      <author>mailto:svemagie@anche.no (svemagie)</author>
+      <guid>http://svemagie.net/post/pinebook-pandoc/</guid>
       
-      <guid>https://svemagie.net/posts/pinebook-pandoc/</guid>
-      <description>&lt;p&gt;My trusted &lt;a href=&#34;https://www.pine64.org/pinebook-pro/&#34;&gt;PinebookPro&lt;/a&gt; won&amp;rsquo;t install &lt;a href=&#34;https://pandoc.org/&#34;&gt;pandoc&lt;/a&gt; per default.&lt;/p&gt;</description>
+        <description>&lt;p&gt;My trusted &lt;a href=&#34;https://www.pine64.org/pinebook-pro/&#34;&gt;PinebookPro&lt;/a&gt; won&amp;rsquo;t install &lt;a href=&#34;https://pandoc.org/&#34;&gt;pandoc&lt;/a&gt; per default.&lt;/p&gt;
+&lt;p&gt;Pandoc is &lt;a href=&#34;https://www.haskell.org/&#34;&gt;Haskell&lt;/a&gt;, and Haskell isn&amp;rsquo;t (binary-)available on Arch Linux / Manjaro based Distributions. But there is an debian-arm64 Version of it, so let&amp;rsquo;s install it. It&amp;rsquo;s a bit of an hack, so pacman and yay will complain later. I&amp;rsquo;ll figure out how to avoid it - or even better: how to do it correctly.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;install some tools and depencies:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo pacman -Sy texlive-core # texconfig; needed to get pdflatex working
+sudo pacman -Sy texlive-bin  # pdflatex; needed to create pdf&#39;s with pandoc
+sudo pacman -Sy rpmextract
+sudo pacman -Sy dpkg
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;install libpcre as dependency of pandoc&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;mkdir libpcre
+cd libpcre
+wget http://ftp.altlinux.org/pub/distributions/ALTLinux/Sisyphus/aarch64/RPMS.classic/libpcre3-8.44-alt1.aarch64.rpm
+rpmextract.sh libpcre3-8.44-alt1.aarch64.rpm
+cd lib64
+sudo cp * /usr/lib
+sudo ldconfig
+    # ldconfig complains, but it seems to work...
+    # ldconfig: /usr/lib/libtranscript.so.1 is not a symbolic link
+    # ldconfig: /usr/lib/libpcreposix.so.3 is not a symbolic link
+    # ldconfig: /usr/lib/libpcre.so.3 is not a symbolic link
+
+cd ../..
+   
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;fetch the pandoc binaries *.deb from an debian mirror:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;wget http://ftp.br.debian.org/debian/pool/main/p/pandoc/pandoc-data_2.9.1.1-3_all.deb
+wget http://ftp.br.debian.org/debian/pool/main/p/pandoc/pandoc_2.9.2.1-1+b1_arm64.deb
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;install pandoc_data&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;dpkg -i pandoc-data_2.9.1.1-3_all.deb
+   
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;install pandoc_bin&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;mkdir pandoc_bin
+cd pandoc_bin
+wget https://debian.pkgs.org/11/debian-main-arm64/pandoc_2.9.1.1-3_arm64.deb.html
+# the bin does not install due to dependency problems (although it executes fine), so unpack and copy manually
+ar x pandoc_2.9.1.1-3_arm64.deb
+unxz data.tar.xz
+tar -xvf data.tar
+sudo cp ./usr/bin/pandoc /usr/bin	
+   
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;* found on &lt;a href=&#34;https://forum.manjaro.org/t/installing-pandoc-on-pinebook-pro/13763/12&#34;&gt;https://forum.manjaro.org/t/installing-pandoc-on-pinebook-pro/13763/12&lt;/a&gt;&lt;/p&gt;
+</description>
+      
     </item>
     
     <item>
       <title>Contact</title>
-      <link>https://svemagie.net/contact/</link>
+      <link>http://svemagie.net/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>mailto:svemagie@anche.no (svemagie)</author>
+      <guid>http://svemagie.net/contact/</guid>
       
-      <guid>https://svemagie.net/contact/</guid>
-      <description>Follow me,
- Fediverse: @svemagie Email: svemagie@chibatsu.net  </description>
+        <description>&lt;p&gt;Follow me,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fediverse: &lt;a href=&#34;https://hub.chibatsu.net/channel/svemagie&#34;&gt;@svemagie&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Email: &lt;a href=&#34;mailto:svemagie@chibatsu.net&#34;&gt;svemagie@chibatsu.net&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
     </item>
     
     <item>
       <title>Hello at svemagie&#39;s personal page</title>
-      <link>https://svemagie.net/about/</link>
+      <link>http://svemagie.net/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>mailto:svemagie@anche.no (svemagie)</author>
+      <guid>http://svemagie.net/about/</guid>
       
-      <guid>https://svemagie.net/about/</guid>
-      <description>Hello, I&amp;rsquo;m svemagie from people@chibatsu.net, it&amp;rsquo;s a pleasure to meet you!
-My professional and personal interests are:
- social sciences, sociology, ethnography, ethnomethodology, systems theory all things Unix artificial stupidity anarchism  see the contact page to find out ways to contact me!</description>
-    </item>
-    
-    <item>
-      <title>Kontakt</title>
-      <link>https://svemagie.net/kontakt/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <description>&lt;p&gt;Hello, I&amp;rsquo;m svemagie from &lt;a href=&#34;https://chibatsu.net&#34;&gt;people@chibatsu.net&lt;/a&gt;, it&amp;rsquo;s a pleasure to meet you!&lt;/p&gt;
+&lt;p&gt;My professional and personal interests are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;social sciences, sociology, ethnography, ethnomethodology, systems theory&lt;/li&gt;
+&lt;li&gt;all things Unix&lt;/li&gt;
+&lt;li&gt;artificial stupidity&lt;/li&gt;
+&lt;li&gt;anarchism&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;see the &lt;a href=&#34;http://svemagie.net/page/contact/&#34;&gt;contact&lt;/a&gt; page to find out ways to contact me!&lt;/p&gt;
+</description>
       
-      <guid>https://svemagie.net/kontakt/</guid>
-      <description>folge mir: @svemagie
- Fediverse: @svemagie EMail: svemagie@chibatsu.net  </description>
-    </item>
-    
-    <item>
-      <title>Projects</title>
-      <link>https://svemagie.net/projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://svemagie.net/projects/</guid>
-      <description> a lot of smaller Unix related projects, nothing special to talk about admin of all things chibatsu.net my own digital version of Luhmann&amp;rsquo;s Zettelkasten  </description>
-    </item>
-    
-    <item>
-      <title>Projekte</title>
-      <link>https://svemagie.net/projekte/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://svemagie.net/projekte/</guid>
-      <description>Nothing to see here&amp;hellip; Move along!</description>
-    </item>
-    
-    <item>
-      <title>Über</title>
-      <link>https://svemagie.net/ueber/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://svemagie.net/ueber/</guid>
-      <description>noch nicht übersetzt</description>
     </item>
     
   </channel>
