@@ -8,7 +8,27 @@
     <language>en</language>
     <managingEditor>mailto:svemagie@anche.no (svemagie)</managingEditor>
     <webMaster>mailto:svemagie@anche.no (svemagie)</webMaster>
-    <lastBuildDate>Wed, 27 Jan 2021 22:09:18 +0100</lastBuildDate><atom:link href="http://svemagie.net/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://svemagie.net/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FreeBSD on RaspberryPi 4, updating from source</title>
+      <link>http://svemagie.net/post/raspi-bsd-13stable/</link>
+      <pubDate>Sat, 27 Feb 2021 00:00:00 +0000</pubDate>
+      <author>mailto:svemagie@anche.no (svemagie)</author>
+      <guid>http://svemagie.net/post/raspi-bsd-13stable/</guid>
+      <description>A fully pandemics compatible microadventure: squeeze out everything possible an RaspberryPi 4B. On this episode: switching from 13-CURRENT to 13-RELEASE.
+ fetch the sources: ```git clone -b releng/13 &amp;ndash;depth 1 https://git.freebsd.org/src.git src`` make buildworld &amp;amp;&amp;amp; make buildkernel KERNCONF=$YOURCONF halt attach USB-Serial-Interface Connector (black, white, green); screen /dev/ttyUSB(`*) 115200 boot into singleuser make installworld make installkernel KERNCONF=$YOURCONF mergemaster -Ui if booting from SD-Card (like me), mount /dev/mmcsd0s1 /mnt cp -r /boot/kernel /mnt/boot/kernel reboot  </description>
+    </item>
+    
+    <item>
+      <title>FreeBSD on RaspberryPi 4, MANIFEST error</title>
+      <link>http://svemagie.net/post/raspi-bsd-manifest/</link>
+      <pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate>
+      <author>mailto:svemagie@anche.no (svemagie)</author>
+      <guid>http://svemagie.net/post/raspi-bsd-manifest/</guid>
+      <description>A pandemic compatible microadventure: squeeze out everything possible an RaspberryPi 4
+ fetch 13-CURRENT https://download.freebsd.org/ftp/snapshots/arm64/aarch64/13.0-CURRENT/ &amp;amp; flash to SD boot up and ssh in (freebsd/freebsd, su - pw root) bsdinstall will throw error about MANIFEST, so change to sh shell export DISTRIBUTIONS=&amp;quot;kernel.txz base.txz&amp;quot; mkdir /usr/freebsd-dist export BSDINSTALL_DISTDIR=&amp;quot;/usr/freebsd-dist/&amp;quot; export BSDINSTALL_DISTSITE=&amp;quot;https://download.freebsd.org/ftp/snapshots/arm64/aarch64/13.0-CURRENT/&amp;quot; bsdinstall distfetch cd /usr/freebsd-dist fetch https://download.freebsd.org/ftp/snapshots/arm64/aarch64/13.0-CURRENT/MANIFEST bsdinstall  </description>
+    </item>
+    
     <item>
       <title>Pyenv - Installing Python on MacOS</title>
       <link>http://svemagie.net/post/pyenv-macos/</link>

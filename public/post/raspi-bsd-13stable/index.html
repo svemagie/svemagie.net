@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Pyenv - Installing Python on MacOS - svemagie</title>
+  <title>FreeBSD on RaspberryPi 4, updating from source - svemagie</title>
   
 
 <meta name="renderer" content="webkit" />
@@ -23,9 +23,8 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="svemagie" />
-  <meta name="description" content="After fiddeling with different and various installments and versions of Python on MacOS, I stumbled over the article The right and wrong way to set Python 3 as default on a Mac - which works like a charm!
-In short:
- brew install pyenv pyenv install 3.8.7 - the Python version you want to install pyenv global 3.8.7 - set it as preferred version make pyenv known to your login shell ($HOME/." />
+  <meta name="description" content="A fully pandemics compatible microadventure: squeeze out everything possible an RaspberryPi 4B. On this episode: switching from 13-CURRENT to 13-RELEASE.
+ fetch the sources: ```git clone -b releng/13 &amp;ndash;depth 1 https://git.freebsd.org/src.git src`` make buildworld &amp;amp;&amp;amp; make buildkernel KERNCONF=$YOURCONF halt attach USB-Serial-Interface Connector (black, white, green); screen /dev/ttyUSB(`*) 115200 boot into singleuser make installworld make installkernel KERNCONF=$YOURCONF mergemaster -Ui if booting from SD-Card (like me), mount /dev/mmcsd0s1 /mnt cp -r /boot/kernel /mnt/boot/kernel reboot  " />
 
   <meta name="keywords" content="Unix, Sociology, Ethnography" />
 
@@ -37,7 +36,7 @@ In short:
 <meta name="generator" content="Hugo 0.80.0" />
 
 
-<link rel="canonical" href="http://svemagie.net/post/pyenv-macos/" />
+<link rel="canonical" href="http://svemagie.net/post/raspi-bsd-13stable/" />
 
 
 
@@ -61,30 +60,27 @@ In short:
 
 
 
-<meta property="og:title" content="Pyenv - Installing Python on MacOS" />
-<meta property="og:description" content="After fiddeling with different and various installments and versions of Python on MacOS, I stumbled over the article The right and wrong way to set Python 3 as default on a Mac - which works like a charm!
-In short:
- brew install pyenv pyenv install 3.8.7 - the Python version you want to install pyenv global 3.8.7 - set it as preferred version make pyenv known to your login shell ($HOME/." />
+<meta property="og:title" content="FreeBSD on RaspberryPi 4, updating from source" />
+<meta property="og:description" content="A fully pandemics compatible microadventure: squeeze out everything possible an RaspberryPi 4B. On this episode: switching from 13-CURRENT to 13-RELEASE.
+ fetch the sources: ```git clone -b releng/13 &ndash;depth 1 https://git.freebsd.org/src.git src`` make buildworld &amp;&amp; make buildkernel KERNCONF=$YOURCONF halt attach USB-Serial-Interface Connector (black, white, green); screen /dev/ttyUSB(`*) 115200 boot into singleuser make installworld make installkernel KERNCONF=$YOURCONF mergemaster -Ui if booting from SD-Card (like me), mount /dev/mmcsd0s1 /mnt cp -r /boot/kernel /mnt/boot/kernel reboot  " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://svemagie.net/post/pyenv-macos/" />
-<meta property="article:published_time" content="2021-01-27T22:09:18+01:00" />
-<meta property="article:modified_time" content="2021-01-27T22:09:18+01:00" />
-<meta itemprop="name" content="Pyenv - Installing Python on MacOS">
-<meta itemprop="description" content="After fiddeling with different and various installments and versions of Python on MacOS, I stumbled over the article The right and wrong way to set Python 3 as default on a Mac - which works like a charm!
-In short:
- brew install pyenv pyenv install 3.8.7 - the Python version you want to install pyenv global 3.8.7 - set it as preferred version make pyenv known to your login shell ($HOME/.">
-<meta itemprop="datePublished" content="2021-01-27T22:09:18+01:00" />
-<meta itemprop="dateModified" content="2021-01-27T22:09:18+01:00" />
-<meta itemprop="wordCount" content="87">
+<meta property="og:url" content="http://svemagie.net/post/raspi-bsd-13stable/" />
+<meta property="article:published_time" content="2021-02-27T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-02-27T00:00:00+00:00" />
+<meta itemprop="name" content="FreeBSD on RaspberryPi 4, updating from source">
+<meta itemprop="description" content="A fully pandemics compatible microadventure: squeeze out everything possible an RaspberryPi 4B. On this episode: switching from 13-CURRENT to 13-RELEASE.
+ fetch the sources: ```git clone -b releng/13 &ndash;depth 1 https://git.freebsd.org/src.git src`` make buildworld &amp;&amp; make buildkernel KERNCONF=$YOURCONF halt attach USB-Serial-Interface Connector (black, white, green); screen /dev/ttyUSB(`*) 115200 boot into singleuser make installworld make installkernel KERNCONF=$YOURCONF mergemaster -Ui if booting from SD-Card (like me), mount /dev/mmcsd0s1 /mnt cp -r /boot/kernel /mnt/boot/kernel reboot  ">
+<meta itemprop="datePublished" content="2021-02-27T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2021-02-27T00:00:00+00:00" />
+<meta itemprop="wordCount" content="71">
 
 
 
-<meta itemprop="keywords" content="python,snippets," />
+<meta itemprop="keywords" content="snippets," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Pyenv - Installing Python on MacOS"/>
-<meta name="twitter:description" content="After fiddeling with different and various installments and versions of Python on MacOS, I stumbled over the article The right and wrong way to set Python 3 as default on a Mac - which works like a charm!
-In short:
- brew install pyenv pyenv install 3.8.7 - the Python version you want to install pyenv global 3.8.7 - set it as preferred version make pyenv known to your login shell ($HOME/."/>
+<meta name="twitter:title" content="FreeBSD on RaspberryPi 4, updating from source"/>
+<meta name="twitter:description" content="A fully pandemics compatible microadventure: squeeze out everything possible an RaspberryPi 4B. On this episode: switching from 13-CURRENT to 13-RELEASE.
+ fetch the sources: ```git clone -b releng/13 &ndash;depth 1 https://git.freebsd.org/src.git src`` make buildworld &amp;&amp; make buildkernel KERNCONF=$YOURCONF halt attach USB-Serial-Interface Connector (black, white, green); screen /dev/ttyUSB(`*) 115200 boot into singleuser make installworld make installkernel KERNCONF=$YOURCONF mergemaster -Ui if booting from SD-Card (like me), mount /dev/mmcsd0s1 /mnt cp -r /boot/kernel /mnt/boot/kernel reboot  "/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -289,14 +285,15 @@ In short:
           <article class="post bg-white h-entry">
     
     <header class="post-header">
-      <h1 class="post-title p-name">Pyenv - Installing Python on MacOS</h1>
+      <h1 class="post-title p-name">FreeBSD on RaspberryPi 4, updating from source</h1>
       
       <div class="post-meta">
-        <time datetime="2021-01-27" class="post-time dt-published">
-          2021-01-27
+        <time datetime="2021-02-27" class="post-time dt-published">
+          2021-02-27
         </time>
         <div class="post-category">
             <a class="u-url" href="http://svemagie.net/categories/sysadmin/"> sysadmin </a>
+            <a class="u-url" href="http://svemagie.net/categories/freebsd/"> freebsd </a>
             
           </div>
         
@@ -311,27 +308,23 @@ In short:
 
     
     
-<div class="post-toc" id="post-toc">
-  <h2 class="post-toc-title">Table of Contents</h2>
-  <div class="post-toc-content">
-    <nav id="TableOfContents"></nav>
-  </div>
-</div>
 
     
     <div class="post-content e-content">
-      <p>After fiddeling with different and various installments and versions of Python on MacOS, I stumbled over the article <a href="https://opensource.com/article/19/5/python-3-default-mac">The right and wrong way to set Python 3 as default on a Mac</a> - which works like a charm!</p>
-<p>In short:</p>
+      <p>A fully pandemics compatible microadventure: squeeze out everything possible an RaspberryPi 4B. On this episode: switching from 13-CURRENT to 13-RELEASE.</p>
+<!-- raw HTML omitted -->
 <ul>
-<li>brew install pyenv</li>
-<li>pyenv install 3.8.7 - the Python version you want to install</li>
-<li>pyenv global 3.8.7 - set it as preferred version</li>
-<li>make pyenv known to your login shell ($HOME/.zshrc)
-<pre><code>if command -v pyenv 1&gt;/dev/null 2&gt;&amp;1; then
- eval &quot;$(pyenv init -)&quot;
-fi
-</code></pre></li>
-<li>use python and pip</li>
+<li>fetch the sources: ```git clone -b releng/13 &ndash;depth 1 <a href="https://git.freebsd.org/src.git">https://git.freebsd.org/src.git</a> src``</li>
+<li><code>make buildworld &amp;&amp; make buildkernel KERNCONF=$YOURCONF</code></li>
+<li><code>halt</code></li>
+<li>attach USB-Serial-Interface Connector (black, white, green); screen /dev/ttyUSB(`*) 115200</li>
+<li>boot into singleuser</li>
+<li><code>make installworld</code></li>
+<li><code>make installkernel KERNCONF=$YOURCONF</code></li>
+<li><code>mergemaster -Ui</code></li>
+<li>if booting from SD-Card (like me), mount /dev/mmcsd0s1 /mnt</li>
+<li><code>cp -r /boot/kernel /mnt/boot/kernel</code></li>
+<li>reboot</li>
 </ul>
 
     </div>
@@ -346,7 +339,7 @@ fi
   <p class="copyright-item">
     <span class="item-title">LastMod</span>
     <span class="item-content">
-      2021-01-27
+      2021-02-27
       
     </span>
   </p>
@@ -363,7 +356,6 @@ fi
 
     <footer class="post-footer">
       <div class="post-tags">
-          <a href="http://svemagie.net/tags/python/">python</a>
           <a href="http://svemagie.net/tags/snippets/">snippets</a>
           
         </div>
@@ -371,22 +363,9 @@ fi
       
       <nav class="post-nav">
         
-          <a class="prev" href="/post/raspi-bsd-manifest/">
-            
-            <i class="iconfont">
-              <svg  class="icon" viewBox="0 0 1024 1024" version="1.1"
-  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-  width="18" height="18">
-  <path d="M691.908486 949.511495l75.369571-89.491197c10.963703-12.998035 10.285251-32.864502-1.499144-44.378743L479.499795 515.267417 757.434875 204.940602c11.338233-12.190647 11.035334-32.285311-0.638543-44.850487l-80.46666-86.564541c-11.680017-12.583596-30.356378-12.893658-41.662889-0.716314L257.233596 494.235404c-11.332093 12.183484-11.041474 32.266891 0.657986 44.844348l80.46666 86.564541c1.772366 1.910513 3.706415 3.533476 5.750981 4.877077l306.620399 321.703933C662.505829 963.726242 680.945807 962.528973 691.908486 949.511495z"></path>
-</svg>
-
-            </i>
-            <span class="prev-text nav-default">FreeBSD on RaspberryPi 4, MANIFEST error</span>
-            <span class="prev-text nav-mobile">Prev</span>
-          </a>
         
-          <a class="next" href="/post/sync-todo/">
-            <span class="next-text nav-default">GTD: Todoist &lt;-&gt; Taskwarrior</span>
+          <a class="next" href="/post/raspi-bsd-manifest/">
+            <span class="next-text nav-default">FreeBSD on RaspberryPi 4, MANIFEST error</span>
             <span class="prev-text nav-mobile">Next</span>
             
             <i class="iconfont">
@@ -406,21 +385,6 @@ fi
   
 
   
-  
-
-  
-
-  
-  
-
-  
-
-  
-
-  
-
-    
-
   
 
         </div>

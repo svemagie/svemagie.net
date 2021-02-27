@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Pyenv - Installing Python on MacOS - svemagie</title>
+  <title>FreeBSD on RaspberryPi 4, MANIFEST error - svemagie</title>
   
 
 <meta name="renderer" content="webkit" />
@@ -23,9 +23,8 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="svemagie" />
-  <meta name="description" content="After fiddeling with different and various installments and versions of Python on MacOS, I stumbled over the article The right and wrong way to set Python 3 as default on a Mac - which works like a charm!
-In short:
- brew install pyenv pyenv install 3.8.7 - the Python version you want to install pyenv global 3.8.7 - set it as preferred version make pyenv known to your login shell ($HOME/." />
+  <meta name="description" content="A pandemic compatible microadventure: squeeze out everything possible an RaspberryPi 4
+ fetch 13-CURRENT https://download.freebsd.org/ftp/snapshots/arm64/aarch64/13.0-CURRENT/ &amp;amp; flash to SD boot up and ssh in (freebsd/freebsd, su - pw root) bsdinstall will throw error about MANIFEST, so change to sh shell export DISTRIBUTIONS=&amp;quot;kernel.txz base.txz&amp;quot; mkdir /usr/freebsd-dist export BSDINSTALL_DISTDIR=&amp;quot;/usr/freebsd-dist/&amp;quot; export BSDINSTALL_DISTSITE=&amp;quot;https://download.freebsd.org/ftp/snapshots/arm64/aarch64/13.0-CURRENT/&amp;quot; bsdinstall distfetch cd /usr/freebsd-dist fetch https://download.freebsd.org/ftp/snapshots/arm64/aarch64/13.0-CURRENT/MANIFEST bsdinstall  " />
 
   <meta name="keywords" content="Unix, Sociology, Ethnography" />
 
@@ -37,7 +36,7 @@ In short:
 <meta name="generator" content="Hugo 0.80.0" />
 
 
-<link rel="canonical" href="http://svemagie.net/post/pyenv-macos/" />
+<link rel="canonical" href="http://svemagie.net/post/raspi-bsd-manifest/" />
 
 
 
@@ -61,30 +60,27 @@ In short:
 
 
 
-<meta property="og:title" content="Pyenv - Installing Python on MacOS" />
-<meta property="og:description" content="After fiddeling with different and various installments and versions of Python on MacOS, I stumbled over the article The right and wrong way to set Python 3 as default on a Mac - which works like a charm!
-In short:
- brew install pyenv pyenv install 3.8.7 - the Python version you want to install pyenv global 3.8.7 - set it as preferred version make pyenv known to your login shell ($HOME/." />
+<meta property="og:title" content="FreeBSD on RaspberryPi 4, MANIFEST error" />
+<meta property="og:description" content="A pandemic compatible microadventure: squeeze out everything possible an RaspberryPi 4
+ fetch 13-CURRENT https://download.freebsd.org/ftp/snapshots/arm64/aarch64/13.0-CURRENT/ &amp; flash to SD boot up and ssh in (freebsd/freebsd, su - pw root) bsdinstall will throw error about MANIFEST, so change to sh shell export DISTRIBUTIONS=&quot;kernel.txz base.txz&quot; mkdir /usr/freebsd-dist export BSDINSTALL_DISTDIR=&quot;/usr/freebsd-dist/&quot; export BSDINSTALL_DISTSITE=&quot;https://download.freebsd.org/ftp/snapshots/arm64/aarch64/13.0-CURRENT/&quot; bsdinstall distfetch cd /usr/freebsd-dist fetch https://download.freebsd.org/ftp/snapshots/arm64/aarch64/13.0-CURRENT/MANIFEST bsdinstall  " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://svemagie.net/post/pyenv-macos/" />
-<meta property="article:published_time" content="2021-01-27T22:09:18+01:00" />
-<meta property="article:modified_time" content="2021-01-27T22:09:18+01:00" />
-<meta itemprop="name" content="Pyenv - Installing Python on MacOS">
-<meta itemprop="description" content="After fiddeling with different and various installments and versions of Python on MacOS, I stumbled over the article The right and wrong way to set Python 3 as default on a Mac - which works like a charm!
-In short:
- brew install pyenv pyenv install 3.8.7 - the Python version you want to install pyenv global 3.8.7 - set it as preferred version make pyenv known to your login shell ($HOME/.">
-<meta itemprop="datePublished" content="2021-01-27T22:09:18+01:00" />
-<meta itemprop="dateModified" content="2021-01-27T22:09:18+01:00" />
-<meta itemprop="wordCount" content="87">
+<meta property="og:url" content="http://svemagie.net/post/raspi-bsd-manifest/" />
+<meta property="article:published_time" content="2021-02-05T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-02-05T00:00:00+00:00" />
+<meta itemprop="name" content="FreeBSD on RaspberryPi 4, MANIFEST error">
+<meta itemprop="description" content="A pandemic compatible microadventure: squeeze out everything possible an RaspberryPi 4
+ fetch 13-CURRENT https://download.freebsd.org/ftp/snapshots/arm64/aarch64/13.0-CURRENT/ &amp; flash to SD boot up and ssh in (freebsd/freebsd, su - pw root) bsdinstall will throw error about MANIFEST, so change to sh shell export DISTRIBUTIONS=&quot;kernel.txz base.txz&quot; mkdir /usr/freebsd-dist export BSDINSTALL_DISTDIR=&quot;/usr/freebsd-dist/&quot; export BSDINSTALL_DISTSITE=&quot;https://download.freebsd.org/ftp/snapshots/arm64/aarch64/13.0-CURRENT/&quot; bsdinstall distfetch cd /usr/freebsd-dist fetch https://download.freebsd.org/ftp/snapshots/arm64/aarch64/13.0-CURRENT/MANIFEST bsdinstall  ">
+<meta itemprop="datePublished" content="2021-02-05T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2021-02-05T00:00:00+00:00" />
+<meta itemprop="wordCount" content="55">
 
 
 
-<meta itemprop="keywords" content="python,snippets," />
+<meta itemprop="keywords" content="snippets," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Pyenv - Installing Python on MacOS"/>
-<meta name="twitter:description" content="After fiddeling with different and various installments and versions of Python on MacOS, I stumbled over the article The right and wrong way to set Python 3 as default on a Mac - which works like a charm!
-In short:
- brew install pyenv pyenv install 3.8.7 - the Python version you want to install pyenv global 3.8.7 - set it as preferred version make pyenv known to your login shell ($HOME/."/>
+<meta name="twitter:title" content="FreeBSD on RaspberryPi 4, MANIFEST error"/>
+<meta name="twitter:description" content="A pandemic compatible microadventure: squeeze out everything possible an RaspberryPi 4
+ fetch 13-CURRENT https://download.freebsd.org/ftp/snapshots/arm64/aarch64/13.0-CURRENT/ &amp; flash to SD boot up and ssh in (freebsd/freebsd, su - pw root) bsdinstall will throw error about MANIFEST, so change to sh shell export DISTRIBUTIONS=&quot;kernel.txz base.txz&quot; mkdir /usr/freebsd-dist export BSDINSTALL_DISTDIR=&quot;/usr/freebsd-dist/&quot; export BSDINSTALL_DISTSITE=&quot;https://download.freebsd.org/ftp/snapshots/arm64/aarch64/13.0-CURRENT/&quot; bsdinstall distfetch cd /usr/freebsd-dist fetch https://download.freebsd.org/ftp/snapshots/arm64/aarch64/13.0-CURRENT/MANIFEST bsdinstall  "/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -289,14 +285,15 @@ In short:
           <article class="post bg-white h-entry">
     
     <header class="post-header">
-      <h1 class="post-title p-name">Pyenv - Installing Python on MacOS</h1>
+      <h1 class="post-title p-name">FreeBSD on RaspberryPi 4, MANIFEST error</h1>
       
       <div class="post-meta">
-        <time datetime="2021-01-27" class="post-time dt-published">
-          2021-01-27
+        <time datetime="2021-02-05" class="post-time dt-published">
+          2021-02-05
         </time>
         <div class="post-category">
             <a class="u-url" href="http://svemagie.net/categories/sysadmin/"> sysadmin </a>
+            <a class="u-url" href="http://svemagie.net/categories/freebsd/"> freebsd </a>
             
           </div>
         
@@ -311,27 +308,23 @@ In short:
 
     
     
-<div class="post-toc" id="post-toc">
-  <h2 class="post-toc-title">Table of Contents</h2>
-  <div class="post-toc-content">
-    <nav id="TableOfContents"></nav>
-  </div>
-</div>
 
     
     <div class="post-content e-content">
-      <p>After fiddeling with different and various installments and versions of Python on MacOS, I stumbled over the article <a href="https://opensource.com/article/19/5/python-3-default-mac">The right and wrong way to set Python 3 as default on a Mac</a> - which works like a charm!</p>
-<p>In short:</p>
+      <p>A pandemic compatible microadventure: squeeze out everything possible an RaspberryPi 4</p>
+<!-- raw HTML omitted -->
 <ul>
-<li>brew install pyenv</li>
-<li>pyenv install 3.8.7 - the Python version you want to install</li>
-<li>pyenv global 3.8.7 - set it as preferred version</li>
-<li>make pyenv known to your login shell ($HOME/.zshrc)
-<pre><code>if command -v pyenv 1&gt;/dev/null 2&gt;&amp;1; then
- eval &quot;$(pyenv init -)&quot;
-fi
-</code></pre></li>
-<li>use python and pip</li>
+<li>fetch 13-CURRENT <a href="https://download.freebsd.org/ftp/snapshots/arm64/aarch64/13.0-CURRENT/">https://download.freebsd.org/ftp/snapshots/arm64/aarch64/13.0-CURRENT/</a> &amp; flash to SD</li>
+<li>boot up and ssh in (freebsd/freebsd, su - pw root)</li>
+<li>bsdinstall will throw error about MANIFEST, so change to sh shell</li>
+<li><code>export DISTRIBUTIONS=&quot;kernel.txz base.txz&quot;</code></li>
+<li><code>mkdir /usr/freebsd-dist</code></li>
+<li><code>export BSDINSTALL_DISTDIR=&quot;/usr/freebsd-dist/&quot;</code></li>
+<li><code>export BSDINSTALL_DISTSITE=&quot;https://download.freebsd.org/ftp/snapshots/arm64/aarch64/13.0-CURRENT/&quot;</code></li>
+<li><code>bsdinstall distfetch</code></li>
+<li><code>cd /usr/freebsd-dist</code></li>
+<li><code>fetch https://download.freebsd.org/ftp/snapshots/arm64/aarch64/13.0-CURRENT/MANIFEST</code></li>
+<li><code>bsdinstall</code></li>
 </ul>
 
     </div>
@@ -346,7 +339,7 @@ fi
   <p class="copyright-item">
     <span class="item-title">LastMod</span>
     <span class="item-content">
-      2021-01-27
+      2021-02-05
       
     </span>
   </p>
@@ -363,7 +356,6 @@ fi
 
     <footer class="post-footer">
       <div class="post-tags">
-          <a href="http://svemagie.net/tags/python/">python</a>
           <a href="http://svemagie.net/tags/snippets/">snippets</a>
           
         </div>
@@ -371,7 +363,7 @@ fi
       
       <nav class="post-nav">
         
-          <a class="prev" href="/post/raspi-bsd-manifest/">
+          <a class="prev" href="/post/raspi-bsd-13stable/">
             
             <i class="iconfont">
               <svg  class="icon" viewBox="0 0 1024 1024" version="1.1"
@@ -381,12 +373,12 @@ fi
 </svg>
 
             </i>
-            <span class="prev-text nav-default">FreeBSD on RaspberryPi 4, MANIFEST error</span>
+            <span class="prev-text nav-default">FreeBSD on RaspberryPi 4, updating from source</span>
             <span class="prev-text nav-mobile">Prev</span>
           </a>
         
-          <a class="next" href="/post/sync-todo/">
-            <span class="next-text nav-default">GTD: Todoist &lt;-&gt; Taskwarrior</span>
+          <a class="next" href="/post/pyenv-macos/">
+            <span class="next-text nav-default">Pyenv - Installing Python on MacOS</span>
             <span class="prev-text nav-mobile">Next</span>
             
             <i class="iconfont">
@@ -406,21 +398,6 @@ fi
   
 
   
-  
-
-  
-
-  
-  
-
-  
-
-  
-
-  
-
-    
-
   
 
         </div>

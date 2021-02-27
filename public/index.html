@@ -62,7 +62,7 @@
 <meta property="og:description" content="svemagie&#39;s personal web" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://svemagie.net/" />
-<meta property="og:updated_time" content="2021-01-27T22:09:18+01:00" />
+<meta property="og:updated_time" content="2021-02-27T00:00:00+00:00" />
 <meta itemprop="name" content="svemagie">
 <meta itemprop="description" content="svemagie&#39;s personal web">
 <meta name="twitter:card" content="summary"/>
@@ -281,6 +281,78 @@
   <header class="post-header">
     <h1 class="post-title">
       
+      <a class="post-link" href="/post/raspi-bsd-13stable/">FreeBSD on RaspberryPi 4, updating from source</a>
+    </h1>
+    
+    <div class="post-meta">
+      <time datetime="2021-02-27" class="post-time">
+        2021-02-27
+      </time>
+      <div class="post-category">
+          <a href="http://svemagie.net/categories/sysadmin/"> sysadmin </a>
+          <a href="http://svemagie.net/categories/freebsd/"> freebsd </a>
+          
+        </div>
+      
+      
+      
+    </div>
+  </header>
+  
+  <div class="post-content">
+    
+    <div class="post-summary">
+      A fully pandemics compatible microadventure: squeeze out everything possible an RaspberryPi 4B. On this episode: switching from 13-CURRENT to 13-RELEASE.
+ fetch the sources: ```git clone -b releng/13 &ndash;depth 1 https://git.freebsd.org/src.git src`` make buildworld &amp;&amp; make buildkernel KERNCONF=$YOURCONF halt attach USB-Serial-Interface Connector (black, white, green); screen /dev/ttyUSB(`*) 115200 boot into singleuser make installworld make installkernel KERNCONF=$YOURCONF mergemaster -Ui if booting from SD-Card (like me), mount /dev/mmcsd0s1 /mnt cp -r /boot/kernel /mnt/boot/kernel reboot  
+    </div>
+    <div class="read-more">
+      <a href="/post/raspi-bsd-13stable/" class="read-more-link">Read more</a>
+    </div>
+    
+  </div>
+</article>
+
+  
+    <article class="post bg-white">
+  <header class="post-header">
+    <h1 class="post-title">
+      
+      <a class="post-link" href="/post/raspi-bsd-manifest/">FreeBSD on RaspberryPi 4, MANIFEST error</a>
+    </h1>
+    
+    <div class="post-meta">
+      <time datetime="2021-02-05" class="post-time">
+        2021-02-05
+      </time>
+      <div class="post-category">
+          <a href="http://svemagie.net/categories/sysadmin/"> sysadmin </a>
+          <a href="http://svemagie.net/categories/freebsd/"> freebsd </a>
+          
+        </div>
+      
+      
+      
+    </div>
+  </header>
+  
+  <div class="post-content">
+    
+    <div class="post-summary">
+      A pandemic compatible microadventure: squeeze out everything possible an RaspberryPi 4
+ fetch 13-CURRENT https://download.freebsd.org/ftp/snapshots/arm64/aarch64/13.0-CURRENT/ &amp; flash to SD boot up and ssh in (freebsd/freebsd, su - pw root) bsdinstall will throw error about MANIFEST, so change to sh shell export DISTRIBUTIONS=&quot;kernel.txz base.txz&quot; mkdir /usr/freebsd-dist export BSDINSTALL_DISTDIR=&quot;/usr/freebsd-dist/&quot; export BSDINSTALL_DISTSITE=&quot;https://download.freebsd.org/ftp/snapshots/arm64/aarch64/13.0-CURRENT/&quot; bsdinstall distfetch cd /usr/freebsd-dist fetch https://download.freebsd.org/ftp/snapshots/arm64/aarch64/13.0-CURRENT/MANIFEST bsdinstall  
+    </div>
+    <div class="read-more">
+      <a href="/post/raspi-bsd-manifest/" class="read-more-link">Read more</a>
+    </div>
+    
+  </div>
+</article>
+
+  
+    <article class="post bg-white">
+  <header class="post-header">
+    <h1 class="post-title">
+      
       <a class="post-link" href="/post/pyenv-macos/">Pyenv - Installing Python on MacOS</a>
     </h1>
     
@@ -307,77 +379,6 @@ In short:
     </div>
     <div class="read-more">
       <a href="/post/pyenv-macos/" class="read-more-link">Read more</a>
-    </div>
-    
-  </div>
-</article>
-
-  
-    <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/post/sync-todo/">GTD: Todoist &lt;-&gt; Taskwarrior</a>
-    </h1>
-    
-    <div class="post-meta">
-      <time datetime="2021-01-20" class="post-time">
-        2021-01-20
-      </time>
-      <div class="post-category">
-          <a href="http://svemagie.net/categories/sysadmin/"> sysadmin </a>
-          
-        </div>
-      
-      
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      Each of my legs stands firmly in one eco-system: most of my work is done on an Apple Powerhorse, but there are other beautiful Unixes, too. Some other things and most of my digital leisure happens on a Linux Laptop, the PineBook Pro. So bringing those worlds play along nicely is a task. This time: GTD (Getting things done): managing business and private tasks.
-I work in Unix terminals most of the time, so my nifty taskmanager for the console is Taskwarrior.
-    </div>
-    <div class="read-more">
-      <a href="/post/sync-todo/" class="read-more-link">Read more</a>
-    </div>
-    
-  </div>
-</article>
-
-  
-    <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/post/getallmail/">Connection test &amp; get all mail</a>
-    </h1>
-    
-    <div class="post-meta">
-      <time datetime="2021-01-17" class="post-time">
-        2021-01-17
-      </time>
-      <div class="post-category">
-          <a href="http://svemagie.net/categories/sysadmin/"> sysadmin </a>
-          
-        </div>
-      
-      
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      This is the script I call from crontab entry */10 * * * * $HOME/bin/fetchmail.sh.
-First, we check if there&rsquo;s an internet connection, then we fetch all mails via pop and imap.
-#!/bin/bash ping -c 1 8.8.8.8 2&gt;&amp;1 &gt;/dev/null if [ $? = 0 ] then # mpop mpop -a -q # kill mbsync if stuck killall mbsync &amp;&gt;/dev/null mbsync -a -q fi 
-    </div>
-    <div class="read-more">
-      <a href="/post/getallmail/" class="read-more-link">Read more</a>
     </div>
     
   </div>
@@ -415,6 +416,10 @@ First, we check if there&rsquo;s an internet connection, then we fetch all mails
       
       <li >
         <a href="/page/2/">2</a>
+      </li>
+      
+      <li >
+        <a href="/page/3/">3</a>
       </li>
       
     </ul>

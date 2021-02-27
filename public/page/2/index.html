@@ -62,7 +62,7 @@
 <meta property="og:description" content="svemagie&#39;s personal web" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://svemagie.net/" />
-<meta property="og:updated_time" content="2021-01-27T22:09:18+01:00" />
+<meta property="og:updated_time" content="2021-02-27T00:00:00+00:00" />
 <meta itemprop="name" content="svemagie">
 <meta itemprop="description" content="svemagie&#39;s personal web">
 <meta name="twitter:card" content="summary"/>
@@ -281,6 +281,77 @@
   <header class="post-header">
     <h1 class="post-title">
       
+      <a class="post-link" href="/post/sync-todo/">GTD: Todoist &lt;-&gt; Taskwarrior</a>
+    </h1>
+    
+    <div class="post-meta">
+      <time datetime="2021-01-20" class="post-time">
+        2021-01-20
+      </time>
+      <div class="post-category">
+          <a href="http://svemagie.net/categories/sysadmin/"> sysadmin </a>
+          
+        </div>
+      
+      
+      
+    </div>
+  </header>
+  
+  <div class="post-content">
+    
+    <div class="post-summary">
+      Each of my legs stands firmly in one eco-system: most of my work is done on an Apple Powerhorse, but there are other beautiful Unixes, too. Some other things and most of my digital leisure happens on a Linux Laptop, the PineBook Pro. So bringing those worlds play along nicely is a task. This time: GTD (Getting things done): managing business and private tasks.
+I work in Unix terminals most of the time, so my nifty taskmanager for the console is Taskwarrior.
+    </div>
+    <div class="read-more">
+      <a href="/post/sync-todo/" class="read-more-link">Read more</a>
+    </div>
+    
+  </div>
+</article>
+
+  
+    <article class="post bg-white">
+  <header class="post-header">
+    <h1 class="post-title">
+      
+      <a class="post-link" href="/post/getallmail/">Connection test &amp; get all mail</a>
+    </h1>
+    
+    <div class="post-meta">
+      <time datetime="2021-01-17" class="post-time">
+        2021-01-17
+      </time>
+      <div class="post-category">
+          <a href="http://svemagie.net/categories/sysadmin/"> sysadmin </a>
+          
+        </div>
+      
+      
+      
+    </div>
+  </header>
+  
+  <div class="post-content">
+    
+    <div class="post-summary">
+      This is the script I call from crontab entry */10 * * * * $HOME/bin/fetchmail.sh.
+First, we check if there&rsquo;s an internet connection, then we fetch all mails via pop and imap.
+#!/bin/bash ping -c 1 8.8.8.8 2&gt;&amp;1 &gt;/dev/null if [ $? = 0 ] then # mpop mpop -a -q # kill mbsync if stuck killall mbsync &amp;&gt;/dev/null mbsync -a -q fi 
+    </div>
+    <div class="read-more">
+      <a href="/post/getallmail/" class="read-more-link">Read more</a>
+    </div>
+    
+  </div>
+</article>
+
+  
+    <article class="post bg-white">
+  <header class="post-header">
+    <h1 class="post-title">
+      
       <a class="post-link" href="/post/pinebook-activitywatch/">PinebookDiaries: installing ActivityWatch</a>
     </h1>
     
@@ -308,42 +379,6 @@ QD (quick &lsquo;n dirty) overview of the dependencies, build and install proces
     </div>
     <div class="read-more">
       <a href="/post/pinebook-activitywatch/" class="read-more-link">Read more</a>
-    </div>
-    
-  </div>
-</article>
-
-  
-    <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/post/pinebook-pandoc/">PinebookDiaries: glueing Pandoc</a>
-    </h1>
-    
-    <div class="post-meta">
-      <time datetime="2021-01-13" class="post-time">
-        2021-01-13
-      </time>
-      <div class="post-category">
-          <a href="http://svemagie.net/categories/sysadmin/"> sysadmin </a>
-          
-        </div>
-      
-      
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      My trusted PinebookPro won&rsquo;t install pandoc per default.
-Pandoc is Haskell, and Haskell isn&rsquo;t (binary-)available on Arch Linux / Manjaro based Distributions. But there is an debian-arm64 Version of it, so let&rsquo;s install it. It&rsquo;s a bit of an hack, so pacman and yay will complain later. I&rsquo;ll figure out how to avoid it - or even better: how to do it correctly.
-  install some tools and depencies:
-    </div>
-    <div class="read-more">
-      <a href="/post/pinebook-pandoc/" class="read-more-link">Read more</a>
     </div>
     
   </div>
@@ -381,6 +416,10 @@ Pandoc is Haskell, and Haskell isn&rsquo;t (binary-)available on Arch Linux / Ma
       
       <li  class="active" >
         <a href="/page/2/">2</a>
+      </li>
+      
+      <li >
+        <a href="/page/3/">3</a>
       </li>
       
     </ul>

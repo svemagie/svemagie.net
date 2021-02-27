@@ -8,10 +8,62 @@
     <language>en</language>
     <managingEditor>mailto:svemagie@anche.no (svemagie)</managingEditor>
     <webMaster>mailto:svemagie@anche.no (svemagie)</webMaster>
-    <lastBuildDate>Wed, 27 Jan 2021 22:09:18 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 27 Feb 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="http://svemagie.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>FreeBSD on RaspberryPi 4, updating from source</title>
+      <link>http://svemagie.net/post/raspi-bsd-13stable/</link>
+      <pubDate>Sat, 27 Feb 2021 00:00:00 +0000</pubDate>
+      <author>mailto:svemagie@anche.no (svemagie)</author>
+      <guid>http://svemagie.net/post/raspi-bsd-13stable/</guid>
+      
+        <description>&lt;p&gt;A fully pandemics compatible microadventure: squeeze out everything possible an RaspberryPi 4B. On this episode: switching from 13-CURRENT to 13-RELEASE.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;ul&gt;
+&lt;li&gt;fetch the sources: ```git clone -b releng/13 &amp;ndash;depth 1 &lt;a href=&#34;https://git.freebsd.org/src.git&#34;&gt;https://git.freebsd.org/src.git&lt;/a&gt; src``&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;make buildworld &amp;amp;&amp;amp; make buildkernel KERNCONF=$YOURCONF&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;halt&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;attach USB-Serial-Interface Connector (black, white, green); screen /dev/ttyUSB(`*) 115200&lt;/li&gt;
+&lt;li&gt;boot into singleuser&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;make installworld&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;make installkernel KERNCONF=$YOURCONF&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mergemaster -Ui&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;if booting from SD-Card (like me), mount /dev/mmcsd0s1 /mnt&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cp -r /boot/kernel /mnt/boot/kernel&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;reboot&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>FreeBSD on RaspberryPi 4, MANIFEST error</title>
+      <link>http://svemagie.net/post/raspi-bsd-manifest/</link>
+      <pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate>
+      <author>mailto:svemagie@anche.no (svemagie)</author>
+      <guid>http://svemagie.net/post/raspi-bsd-manifest/</guid>
+      
+        <description>&lt;p&gt;A pandemic compatible microadventure: squeeze out everything possible an RaspberryPi 4&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;ul&gt;
+&lt;li&gt;fetch 13-CURRENT &lt;a href=&#34;https://download.freebsd.org/ftp/snapshots/arm64/aarch64/13.0-CURRENT/&#34;&gt;https://download.freebsd.org/ftp/snapshots/arm64/aarch64/13.0-CURRENT/&lt;/a&gt; &amp;amp; flash to SD&lt;/li&gt;
+&lt;li&gt;boot up and ssh in (freebsd/freebsd, su - pw root)&lt;/li&gt;
+&lt;li&gt;bsdinstall will throw error about MANIFEST, so change to sh shell&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;export DISTRIBUTIONS=&amp;quot;kernel.txz base.txz&amp;quot;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mkdir /usr/freebsd-dist&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;export BSDINSTALL_DISTDIR=&amp;quot;/usr/freebsd-dist/&amp;quot;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;export BSDINSTALL_DISTSITE=&amp;quot;https://download.freebsd.org/ftp/snapshots/arm64/aarch64/13.0-CURRENT/&amp;quot;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;bsdinstall distfetch&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd /usr/freebsd-dist&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;fetch https://download.freebsd.org/ftp/snapshots/arm64/aarch64/13.0-CURRENT/MANIFEST&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;bsdinstall&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
+    </item>
     
     <item>
       <title>Pyenv - Installing Python on MacOS</title>
