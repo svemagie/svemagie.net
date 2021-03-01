@@ -1,9 +1,7 @@
 ---
 title: "Glossary of Tags and why I use them"
 date: 2021-01-28T16:27:11+01:00
-comment: false
-toc: true
-draft: true
+slug: "glossary"
 ---
 
 # #biohacking
