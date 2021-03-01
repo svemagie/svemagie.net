@@ -1,7 +1,7 @@
 ---
 title: "Pyenv - Installing Python on MacOS"
 date: 2021-01-27T22:09:18+01:00
-tags: [python, snippets]
+tags: [python, snippets, MacOS]
 categories: [sysadmin]
 ---
 
