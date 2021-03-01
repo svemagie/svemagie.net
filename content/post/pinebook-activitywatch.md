@@ -2,7 +2,7 @@
 title: "PinebookDiaries: installing ActivityWatch"
 date: 2021-01-14T17:30:19+01:00
 author: "svemagie"
-tags: [ pinebook, lifelogging, quantified self ]
+tags: [ pinebook, lifelogging]
 categories: [quantifiedself, sysadmin]
 ---
 
