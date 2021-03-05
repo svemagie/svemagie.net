@@ -5,6 +5,7 @@ tags: [ ideas, freedom, selfhosting, dataliberation]
 categories: [selfhosting, sysadmin]
 comment: false
 toc: true
+draft: false
 ---
 Just a rant and some thoughts on **data liberation**. As you may know, I [like data](/categories/quantifiedself/). But only when I'm the sole sovereign of it. I like to decide on my own what happens with my data. Data is *not* the new Oil, rather it is personality, an extension and expression of myself.
 
