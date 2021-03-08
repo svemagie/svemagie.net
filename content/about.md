@@ -11,4 +11,4 @@ My professional and personal interests are:
 - artificial stupidity
 - anarchism
 
-see the [contact](/page/contact/) page to find out ways to contact me!
+you can contact me via Email or via ActivityPub. See the icons below for details.
