@@ -33,7 +33,7 @@ A quick look what the best settings for a postgresl setup brought up the followi
 * ```zfs set recordsize=1M store/db/postgres/data13/pglog```
 * ```zfs set mountpoint=/usr/local/bastille/jails/db2/root/var/db/postgres store/db/postgres```
 
-we created the dataset on our "store" (2x 3 TB USB drives configured as a zfs-mirror with bells and whistles like a log and cache configured to run on a faster SSD), set some settings for the database and mounted the postgres directory it into the jail.
+we created the dataset on our "store" (2x 3 TB USB drives configured as a zfs-mirror with bells and whistles like a [log and cache configured](/post/raspi-bsd-zfs/) to run on a faster SSD), set some settings for the database and mounted the postgres directory it into the jail.
 
 ### install postgresql
 Now login to the new jail and fetch the ports tree 
