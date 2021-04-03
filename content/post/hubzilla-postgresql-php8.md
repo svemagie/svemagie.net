@@ -1,6 +1,6 @@
 ---
 title: "Moving Hubzilla from php74+mysql to php80+postgresql on a FreeBSD ZFS"
-date: 2021-04-03s
+date: 2021-04-03
 tags: [ hubzilla, postgresql, freebsd, zfs, php, snippets]
 categories: [sysadmin]
 comment: false
