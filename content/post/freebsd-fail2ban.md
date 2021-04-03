@@ -31,4 +31,4 @@ you can check with
 * show all rules for all anchors: `pfctl -a 'f2b/*' -sr`
 * show the rules for bsd-sshd: `pfctl -a f2b/bsd-sshd -sr`
 * show banned IPs for bsd-sshd: `pfctl -a f2b/bsd-sshd -t f2b-bsd-sshd -T show`
-* bonus: show everything `pfctl -a 'f2b/*' -sa
+* bonus: show everything `pfctl -a 'f2b/*' -sa`
